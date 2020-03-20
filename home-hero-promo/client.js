@@ -8,10 +8,15 @@
       var inlineMsg = Evergage.cashDom(".hh-inline");
       if (inlineMsg) inlineMsg.remove();
     }
+
+    function control() {
+    
+    }
   
     registerTemplate({
       apply: apply,
-      reset: reset
+      reset: reset,
+      control: control
     });
     
   })();
