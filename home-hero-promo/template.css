@@ -1,0 +1,54 @@
+.hh-inline {
+    background-color: #FFF;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+.hh-content {
+    height: 100%;
+    width: auto;
+    text-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.hh-promo {
+    display: inline-block;
+    font-size: 65px;
+    line-height: 30px;
+    margin: 40px;
+}
+.hh-body-text {
+    display: block;
+    font-size: 22px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.hh-cta {
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+hh-cta > a {
+    text-decoration: none;
+}
