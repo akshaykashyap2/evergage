@@ -3,7 +3,7 @@
 ### Home Hero Promo
 ![Screen Shot 2020-03-20 at 4 32 01 PM](https://user-images.githubusercontent.com/32201252/77213621-adcb3280-6ac8-11ea-94ec-7c049b775d8c.png)
 
-Configuration: 
+#### Configuration: 
 1. Content Zone
 1. Header
 1. Body Text
@@ -19,7 +19,7 @@ Configuration:
 <img width="48%" alt="Screen Shot 2020-03-20 at 8 19 04 PM" src="https://user-images.githubusercontent.com/32201252/77218652-d6642400-6aea-11ea-882b-cdc85ca2397a.png">
 </div>
 
-Configuration: 
+#### Configuration: 
 1. Header
 1. CTA Text
 1. Cancel Text
