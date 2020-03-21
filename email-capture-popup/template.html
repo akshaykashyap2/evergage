@@ -1,0 +1,31 @@
+<div id="email-capture-popup">
+    <div class="ecp-overlay"></div>
+    <div class="ecp-popup" style="background-image:url('{{imageUrl}}'); color: {{textColor.hex}}; font-family: {{font}}">
+        <div class="ecp-content">
+            <div class="ecp-promo">
+                {{{promoText}}}
+            </div>
+            <form id="ecp-form" action="" method="">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <button class="ecp-cta" type="button" style="border: 2px solid {{textColor.hex}}; color: {{textColor.hex}}">
+                    {{ctaText}}
+                </button>
+            </form>
+            <div class="ecp-cancel">
+                {{cancelText}}
+            </div>
+        </div>
+        <div class="ecp-confirm-content ecp-hide">
+            <div class="ecp-confirm-text">
+                {{confirmText}}
+            </div>
+            <div class="ecp-confirm-subtext">
+                {{confirmSubtext}}
+            </div>
+        </div>
+        <div class="ecp-close">
+            &times;
+        </div>
+    </div>
+</div>

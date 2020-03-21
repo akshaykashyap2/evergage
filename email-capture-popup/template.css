@@ -1,0 +1,130 @@
+#email-capture-popup {
+    position: relative;
+    z-index: 9999999;
+}
+.ecp-overlay {
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    opacity: 0.3;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.ecp-popup {
+    background-color: #FFF;
+    background-size: cover;
+    height: 500px;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -250px;
+    position: fixed;
+    top: 50%;
+    width: 500px;
+}
+.ecp-close {
+    background-color: #000;
+    border-radius: 15px;
+    color: #FFF;
+    cursor: pointer;
+    height: 30px;
+    line-height: 28px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    text-align: center;
+    user-select: none;
+    width: 30px;
+}
+.ecp-content {
+    height: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.ecp-promo {
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+#ecp-form {
+    margin: 10px 0;
+    width: 250px;
+}
+#ecp-form > input {
+    margin: 5px 0;
+    width: 100%;
+}
+#ecp-form > button {
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px 0px;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.ecp-cancel {
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.ecp-confirm-content {
+    height: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.ecp-confirm-text {
+    display: inline-block;
+    font-size: 40px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+.ecp-confirm-subtext {
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+.ecp-hide {
+    display: none;
+}
