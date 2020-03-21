@@ -13,9 +13,11 @@ Configuration:
 1. Text Color
 
 ### Email Capture Popup
+<div>
 <img width="48%" alt="Screen Shot 2020-03-20 at 8 18 44 PM" src="https://user-images.githubusercontent.com/32201252/77218651-d49a6080-6aea-11ea-93f4-1149febfeaa4.png">
 
 <img width="48%" alt="Screen Shot 2020-03-20 at 8 19 04 PM" src="https://user-images.githubusercontent.com/32201252/77218652-d6642400-6aea-11ea-882b-cdc85ca2397a.png">
+</div>
 
 Configuration: 
 1. Header
@@ -26,4 +28,3 @@ Configuration:
 1. Background Image URL
 1. Font (Helvetica, Roboto, Open Sans)
 1. Text Color
-
