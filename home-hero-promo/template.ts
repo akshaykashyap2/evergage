@@ -9,6 +9,9 @@ export class HomeHeroContentPromo implements CampaignTemplateComponent {
 
     bodyText: string;
 
+    @title('CTA Text')
+    ctaText: string;
+
     destinationURL: string;
 
     @title('Background Image URL')
@@ -19,7 +22,7 @@ export class HomeHeroContentPromo implements CampaignTemplateComponent {
     
     textColor: Color;
 
-    run(context: CampaignComponentContext) {
+    run(context:CampaignComponentContext) {
         return {};
     }
     

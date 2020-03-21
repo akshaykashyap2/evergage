@@ -6,8 +6,10 @@
         <div class="hh-body-text">
             {{bodyText}}
         </div>
-        <button class="hh-cta" style="border: 2px solid {{textColor.hex}}">
-            <a href="{{destinationURL}}" style="color: {{textColor.hex}};">JOIN NOW</a>
-        </button>
+        <a href="{{destinationURL}}" style="color: {{textColor.hex}}">
+            <button class="hh-cta" style="border: 2px solid {{textColor.hex}}; color: {{textColor.hex}}">
+                {{ctaText}}
+            </button>
+        </a>
     </div>
 </div>
