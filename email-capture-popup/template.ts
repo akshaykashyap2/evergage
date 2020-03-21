@@ -1,16 +1,16 @@
 export class EmailCapturePopup implements CampaignTemplateComponent {
 
     @richText(true)
-    promoText: string;
+    header: string;
 
     @title('CTA Text')
     ctaText: string;
 
     cancelText: string;
 
-    confirmText: string;
+    confirmationText: string;
 
-    confirmSubtext: string;
+    confirmationSubtext: string;
 
     @title('Background Image URL')
     imageUrl: string;
