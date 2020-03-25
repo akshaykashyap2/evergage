@@ -1,10 +1,10 @@
-.hh-inline {
+#evg-home-hero-promo {
     background-color: #FFF;
     background-size: cover;
     height: 500px;
     width: 100%;
 }
-.hh-content {
+.evg-content {
     height: 100%;
     width: auto;
     text-align: center;
@@ -29,20 +29,20 @@
     -ms-flex-align: center;
     align-items: center;
 }
-.hh-promo {
+.evg-promo {
     display: inline-block;
     font-size: 65px;
     line-height: 30px;
     margin: 40px;
 }
-.hh-body-text {
+.evg-body {
     display: block;
     font-size: 22px;
     line-height: 40px;
     margin-bottom: 20px;
     text-decoration: none;
 }
-.hh-cta {
+.evg-cta {
     background-color: transparent;
     cursor: pointer;
     font-size: 20px;

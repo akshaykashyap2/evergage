@@ -5,7 +5,7 @@
   }
 
   function reset(context, template) {
-    var inlineMsg = Evergage.cashDom(".hh-inline");
+    var inlineMsg = Evergage.cashDom("#evg-home-hero-promo");
     if (inlineMsg) inlineMsg.remove();
   }
 
