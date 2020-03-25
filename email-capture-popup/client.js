@@ -5,13 +5,15 @@
         var div = Evergage.cashDom("div");
         Evergage.cashDom("body").append(html);
       
-        Evergage.cashDom(".evg-overlay, .evg-close, .evg-cancel").on("click", function() {
+        Evergage.cashDom(
+                "#evg-email-capture-popup .evg-overlay, #evg-email-capture-popup .evg-close, #evg-email-capture-popup .evg-cancel"
+            ).on("click", function() {
             Evergage.cashDom("#evg-email-capture-popup").remove();
         });
 
-        Evergage.cashDom(".evg-cta").on("click", function(event) {
-            Evergage.cashDom(".evg-content").addClass("evg-hide");
-            Evergage.cashDom(".evg-confirm-content").removeClass("evg-hide");
+        Evergage.cashDom("#evg-email-capture-popup .evg-cta").on("click", function(event) {
+            Evergage.cashDom("#evg-email-capture-popup .evg-content").addClass("evg-hide");
+            Evergage.cashDom("#evg-email-capture-popup .evg-confirm-content").removeClass("evg-hide");
         });
     }
 

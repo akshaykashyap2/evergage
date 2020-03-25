@@ -2,7 +2,7 @@
     position: relative;
     z-index: 9999999;
 }
-.evg-overlay {
+#evg-email-capture-popup .evg-overlay {
     background-color: #000;
     bottom: 0;
     left: 0;
@@ -11,7 +11,7 @@
     right: 0;
     top: 0;
 }
-.evg-popup {
+#evg-email-capture-popup .evg-popup {
     background-color: #FFF;
     background-size: cover;
     height: 500px;
@@ -22,7 +22,7 @@
     top: 50%;
     width: 500px;
 }
-.evg-close {
+#evg-email-capture-popup .evg-close {
     background-color: #000;
     border-radius: 15px;
     color: #FFF;
@@ -36,7 +36,7 @@
     user-select: none;
     width: 30px;
 }
-.evg-content {
+#evg-email-capture-popup .evg-content {
     height: 100%;
     display: -webkit-box;
     display: -moz-box;
@@ -61,21 +61,21 @@
     text-align: center;
     width: 100%;
 }
-.evg-promo {
+#evg-email-capture-popup .evg-promo {
     display: inline-block;
     font-size: 30px;
     margin-bottom: 10px;
     width: 400px;
 }
-#evg-form {
+#evg-email-capture-popup .evg-form {
     margin: 10px 0;
     width: 250px;
 }
-#evg-form > input {
+#evg-email-capture-popup .evg-form > input {
     margin: 5px 0;
     width: 100%;
 }
-#evg-form > button {
+#evg-email-capture-popup .evg-form > button {
     background-color: transparent;
     cursor: pointer;
     font-size: 20px;
@@ -83,12 +83,12 @@
     padding: 10px 30px;
     text-decoration: none;
 }
-.evg-cancel {
+#evg-email-capture-popup .evg-cancel {
     cursor: pointer;
     font-size: 12px;
     text-decoration: underline;
 }
-.evg-confirm-content {
+#evg-email-capture-popup .evg-confirm-content {
     height: 100%;
     display: -webkit-box;
     display: -moz-box;
@@ -113,18 +113,18 @@
     text-align: center;
     width: 100%;
 }
-.evg-confirm-text {
+#evg-email-capture-popup .evg-confirm-text {
     display: inline-block;
     font-size: 40px;
     margin-bottom: 10px;
     width: 400px;
 }
-.evg-confirm-subtext {
+#evg-email-capture-popup .evg-confirm-subtext {
     display: inline-block;
     font-size: 20px;
     margin-bottom: 10px;
     width: 400px;
 }
-.evg-hide {
+#evg-email-capture-popup .evg-hide {
     display: none;
 }
