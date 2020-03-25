@@ -1,30 +1,30 @@
-<div id="email-capture-popup">
-    <div class="ecp-overlay"></div>
-    <div class="ecp-popup" style="background-image:url('{{imageUrl}}'); color: {{textColor.hex}}; font-family: {{font}}">
-        <div class="ecp-content">
-            <div class="ecp-promo">
+<div id="evg-email-capture-popup">
+    <div class="evg-overlay"></div>
+    <div class="evg-popup" style="background-image:url('{{imageUrl}}'); color: {{textColor.hex}}; font-family: {{font}}">
+        <div class="evg-content">
+            <div class="evg-promo">
                 {{{header}}}
             </div>
-            <form id="ecp-form" action="" method="">
+            <form id="evg-form" action="" method="">
                 <input type="text" placeholder="Name">
                 <input type="text" placeholder="Email">
-                <button class="ecp-cta" type="button" style="border: 2px solid {{textColor.hex}}; color: {{textColor.hex}}">
+                <button class="evg-cta" type="button" style="border: 2px solid {{textColor.hex}}; color: {{textColor.hex}}">
                     {{ctaText}}
                 </button>
             </form>
-            <div class="ecp-cancel">
+            <div class="evg-cancel">
                 {{cancelText}}
             </div>
         </div>
-        <div class="ecp-confirm-content ecp-hide">
-            <div class="ecp-confirm-text">
+        <div class="evg-confirm-content evg-hide">
+            <div class="evg-confirm-text">
                 {{confirmationText}}
             </div>
-            <div class="ecp-confirm-subtext">
+            <div class="evg-confirm-subtext">
                 {{confirmationSubtext}}
             </div>
         </div>
-        <div class="ecp-close">
+        <div class="evg-close">
             &times;
         </div>
     </div>

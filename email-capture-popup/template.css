@@ -1,8 +1,8 @@
-#email-capture-popup {
+#evg-email-capture-popup {
     position: relative;
     z-index: 9999999;
 }
-.ecp-overlay {
+.evg-overlay {
     background-color: #000;
     bottom: 0;
     left: 0;
@@ -11,7 +11,7 @@
     right: 0;
     top: 0;
 }
-.ecp-popup {
+.evg-popup {
     background-color: #FFF;
     background-size: cover;
     height: 500px;
@@ -22,7 +22,7 @@
     top: 50%;
     width: 500px;
 }
-.ecp-close {
+.evg-close {
     background-color: #000;
     border-radius: 15px;
     color: #FFF;
@@ -36,7 +36,7 @@
     user-select: none;
     width: 30px;
 }
-.ecp-content {
+.evg-content {
     height: 100%;
     display: -webkit-box;
     display: -moz-box;
@@ -61,21 +61,21 @@
     text-align: center;
     width: 100%;
 }
-.ecp-promo {
+.evg-promo {
     display: inline-block;
     font-size: 30px;
     margin-bottom: 10px;
     width: 400px;
 }
-#ecp-form {
+#evg-form {
     margin: 10px 0;
     width: 250px;
 }
-#ecp-form > input {
+#evg-form > input {
     margin: 5px 0;
     width: 100%;
 }
-#ecp-form > button {
+#evg-form > button {
     background-color: transparent;
     cursor: pointer;
     font-size: 20px;
@@ -83,12 +83,12 @@
     padding: 10px 30px;
     text-decoration: none;
 }
-.ecp-cancel {
+.evg-cancel {
     cursor: pointer;
     font-size: 12px;
     text-decoration: underline;
 }
-.ecp-confirm-content {
+.evg-confirm-content {
     height: 100%;
     display: -webkit-box;
     display: -moz-box;
@@ -113,18 +113,18 @@
     text-align: center;
     width: 100%;
 }
-.ecp-confirm-text {
+.evg-confirm-text {
     display: inline-block;
     font-size: 40px;
     margin-bottom: 10px;
     width: 400px;
 }
-.ecp-confirm-subtext {
+.evg-confirm-subtext {
     display: inline-block;
     font-size: 20px;
     margin-bottom: 10px;
     width: 400px;
 }
-.ecp-hide {
+.evg-hide {
     display: none;
 }
