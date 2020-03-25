@@ -1,0 +1,21 @@
+#evg-promo-code-infobar {
+    height: auto;
+    left: 0;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 9999999999;
+}
+#evg-promo-code-infobar .evg-link {
+    font-size: 14px;
+    text-decoration: none;
+}
+#evg-promo-code-infobar .evg-container {
+    display: inline;
+}
+#evg-promo-code-infobar .evg-description {
+    font-size: 14px; 
+    display: inline;   
+}
