@@ -1,0 +1,22 @@
+#evg-product-recs {
+    width: 100%;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+#evg-product-recs .evg-recs-title {
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#evg-product-recs .evg-item {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+}
+
+#evg-product-recs .evg-item img {
+    height: auto;
+    width: 60%;
+}

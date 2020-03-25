@@ -28,3 +28,16 @@
 1. Background Image URL
 1. Font (Helvetica, Roboto, Open Sans)
 1. Text Color
+
+### Product Recommendations
+<img width="1152" alt="Screen Shot 2020-03-24 at 8 04 45 PM" src="https://user-images.githubusercontent.com/32201252/77497536-c6aa4f80-6e0a-11ea-9e6b-ba4461c4457d.png">
+
+
+#### Configuration: 
+1. Content Zone
+1. Title
+1. Recipe
+1. Max Results
+1. Exclusions
+1. Font (Helvetica, Roboto, Open Sans)
+1. Text Color
