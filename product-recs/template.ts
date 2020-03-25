@@ -1,6 +1,6 @@
 import { RecommendationsConfig, RecipeReference, recommend } from "recs";
 
-export class NewTemplate implements CampaignTemplateComponent {
+export class ProductRecommendations implements CampaignTemplateComponent {
 
     contentZone: "Featured Categories" | "Shop By Category";
 
