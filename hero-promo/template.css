@@ -1,10 +1,10 @@
-#evg-home-hero-promo {
+#evg-hero-banner-promo {
     background-color: #FFF;
     background-size: cover;
     height: 500px;
     width: 100%;
 }
-#evg-home-hero-promo .evg-content {
+#evg-hero-banner-promo .evg-content {
     height: 100%;
     width: auto;
     text-align: center;
@@ -29,20 +29,20 @@
     -ms-flex-align: center;
     align-items: center;
 }
-#evg-home-hero-promo .evg-promo {
+#evg-hero-banner-promo .evg-promo {
     display: inline-block;
     font-size: 65px;
     line-height: 30px;
     margin: 40px;
 }
-#evg-home-hero-promo .evg-body {
+#evg-hero-banner-promo .evg-body {
     display: block;
     font-size: 22px;
     line-height: 40px;
     margin-bottom: 20px;
     text-decoration: none;
 }
-#evg-home-hero-promo .evg-cta {
+#evg-hero-banner-promo .evg-cta {
     background-color: transparent;
     cursor: pointer;
     font-size: 20px;

@@ -1,22 +1,21 @@
 # Evergage Global Templates
 
-### Home Hero Promo
+### Hero Banner Promo
 ![Screen Shot 2020-03-20 at 4 32 01 PM](https://user-images.githubusercontent.com/32201252/77213621-adcb3280-6ac8-11ea-94ec-7c049b775d8c.png)
 
-#### Configuration: 
+#### Configuration:
 1. Content Zone
-    - Ex: "Homepage Hero"
-1. Header
+2. Header
     - Ex: "Rewards Club"
-1. Body Text
+3. Body Text
     - Ex: "Start earning 5% back every time you shop. It's free to join!"
-1. CTA Text
+4. CTA Text
     - Ex: "JOIN NOW"
-1. Destination URL
-1. Background Image URL
+5. Destination URL
+6. Background Image URL
     - "https://www.northerntrailoutfitters.com/dw/image/v2/BDPX_PRD/on/demandware.static/-/Library-Sites-NTO-SFRASharedLibrary/default/dw8dec29a5/images/stories/stories-hero-05-1800-600.jpg"
-1. Font (Helvetica, Roboto, Open Sans)
-1. Text Color
+7. Font (Helvetica, Roboto, Open Sans)
+8. Text Color
 
 
 

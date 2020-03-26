@@ -1,4 +1,4 @@
-export class HomeHeroPromo implements CampaignTemplateComponent {
+export class HeroBannerPromo implements CampaignTemplateComponent {
 
     contentZone: string = "Homepage Hero";
 
