@@ -5,20 +5,30 @@
 
 #### Configuration: 
 1. Content Zone
+    - Ex: "Homepage Hero"
 1. Header
+    - Ex: "Rewards Club"
 1. Body Text
+    - Ex: "Start earning 5% back every time you shop. It's free to join!"
+1. CTA Text
+    - Ex: "JOIN NOW"
 1. Destination URL
 1. Background Image URL
+    - "https://www.northerntrailoutfitters.com/dw/image/v2/BDPX_PRD/on/demandware.static/-/Library-Sites-NTO-SFRASharedLibrary/default/dw8dec29a5/images/stories/stories-hero-05-1800-600.jpg"
 1. Font (Helvetica, Roboto, Open Sans)
 1. Text Color
+
+
 
 ### Promo Infobar
 <img width="1386" alt="Screen Shot 2020-03-24 at 9 49 16 PM" src="https://user-images.githubusercontent.com/32201252/77502880-6078f900-6e19-11ea-831c-c54c6709158d.png">
 
 #### Configuration: 
 1. Body Text
+    - Ex: "Get free 2-day shipping with any $50 purchase. Ends 4/25!"
 1. Body Text Color
 1. Link Text
+    - Ex: "SHOP NOW"
 1. Link Text Color
 1. Link URL
 1. Font (Helvetica, Roboto, Open Sans)
@@ -34,11 +44,17 @@
 
 #### Configuration: 
 1. Header
+    - Ex: "Join Rewards Club today and get 10% off your next order."
 1. CTA Text
+    - Ex: "Sign Me Up"
 1. Cancel Text
+    - Ex: "No Thanks"
 1. Confirmation Text
+    - Ex: "Thank You!"
 1. Confirmatin Subtext
+    - Ex: "Check your email for the discount code!"
 1. Background Image URL
+    - Ex: "https://www.northerntrailoutfitters.com/on/demandware.static/-/Library-Sites-NTO-SFRASharedLibrary/default/dw656a6e88/images/homepage/home-rain-gear-hero-450-600@2x.jpg"
 1. Font (Helvetica, Roboto, Open Sans)
 1. Text Color
 
@@ -49,6 +65,7 @@
 #### Configuration: 
 1. Content Zone
 1. Title
+    - Ex: "Product Recommendations"
 1. Recipe
 1. Max Results
 1. Exclusions
