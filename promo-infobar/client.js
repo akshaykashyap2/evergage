@@ -2,7 +2,8 @@
 
   function apply(context, template, render) {
     var html = template(context);
-    Evergage.cashDom("body").prepend(html);
+    Evergage.cashDom("body").css("margin-top", "40px");
+    Evergage.cashDom("body").append(html);
   }
 
   function reset(context, template) {

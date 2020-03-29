@@ -1,12 +1,25 @@
 #evg-promo-code-infobar {
-    height: auto;
+    box-sizing: border-box;
+    height: 40px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     left: 0;
-    padding: 10px;
     position: fixed;
     text-align: center;
     top: 0;
     width: 100%;
-    z-index: 9999999999;
+    z-index: 10000000;    
 }
 #evg-promo-code-infobar .evg-link {
     font-size: 14px;

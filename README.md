@@ -20,7 +20,7 @@
 
 
 ### Promo Infobar
-<img width="1386" alt="Screen Shot 2020-03-24 at 9 49 16 PM" src="https://user-images.githubusercontent.com/32201252/77502880-6078f900-6e19-11ea-831c-c54c6709158d.png">
+<img width="1418" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/77837994-71c94a80-7124-11ea-900a-4971eaec48ba.png">
 
 #### Configuration: 
 1. Body Text
@@ -29,10 +29,11 @@
 1. Link Text
     - Ex: "SHOP NOW"
 1. Link Text Color
+    - Ex: "#20c997"
 1. Link URL
 1. Font (Helvetica, Roboto, Open Sans)
 1. Background Color
-
+    - Ex: "#343a40"
 
 ### Email Capture Popup
 <div>
