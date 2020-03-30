@@ -1,4 +1,15 @@
+export class ComplexType {
+    position: string;
+    label: string;
+}
+
 export class PromoCodeInfobar implements CampaignTemplateComponent {
+
+    @options([
+        {position: "top", label: "Top"},
+        {position: "bottom", label: "Bottom"}
+    ])
+    myOptionProperty: ComplexType;
 
     @richText(true)
     bodyText: string;
