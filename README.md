@@ -20,20 +20,30 @@
 
 
 ### Promo Infobar
-<img width="1418" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/77837994-71c94a80-7124-11ea-900a-4971eaec48ba.png">
+<div>
+<img width="48%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/77837994-71c94a80-7124-11ea-900a-4971eaec48ba.png">
+
+
+<img width="48%" alt="Screen Shot 2020-03-30 at 9 23 33 PM" src="https://user-images.githubusercontent.com/32201252/77986749-c3143e00-72cc-11ea-9d6e-c6f0dd781cd9.png">
+</div>
 
 #### Configuration: 
-1. Body Text
-    - Ex: "Get free 2-day shipping with any $50 purchase. Ends 4/25!"
-1. Body Text Color
-1. Link Text
-    - Ex: "SHOP NOW"
-1. Link Text Color
-    - Ex: "#20c997"
-1. Link URL
-1. Font (Helvetica, Roboto, Open Sans)
-1. Background Color
-    - Ex: "#343a40"
+1. Position
+   1. Dropdown: Top, Bottom
+2. Body Text
+    - Top Infobar Ex: "Get free 2-day shipping with any $50 purchase. Ends 4/25!"
+3. Body Text Color
+4. Link Text
+    - Top Infobar Ex: "SHOP NOW"
+    - Bottom Infobar Ex: "Bottom Infobar Ex: "Sign up for our newsletter and get 5% off your next order! ➔"
+5. Link Text Color
+    - Top Infobar Ex: "#20c997"
+    - Bottom Infobar Ex: "#FFFFFF"
+6. Link URL
+7. Font (Helvetica, Roboto, Open Sans)
+8. Background Color
+    - Top Infobar Ex: "#343a40"
+    - Bottom Infobar Ex: "#20c997"
 
 ### Email Capture Popup
 <div>
