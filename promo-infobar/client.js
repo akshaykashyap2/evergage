@@ -3,7 +3,7 @@
   function apply(context, template, render) {
     var html = template(context);
     Evergage.cashDom("body").append(html);
-    if (context.myOptionProperty.position === "top") {
+    if (context.infobarPosition.position === "top") {
       Evergage.cashDom("body").css("margin-bottom", "0px");
       Evergage.cashDom("body").css("margin-top", "40px");
       Evergage.cashDom("#evg-promo-code-infobar").css("top", "0px");

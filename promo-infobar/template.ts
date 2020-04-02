@@ -9,7 +9,7 @@ export class PromoCodeInfobar implements CampaignTemplateComponent {
         {position: "top", label: "Top"},
         {position: "bottom", label: "Bottom"}
     ])
-    position: ComplexType;
+    infobarPosition: ComplexType;
 
     @richText(true)
     bodyText: string;
