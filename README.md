@@ -84,8 +84,8 @@
 
 ### Callout
 <div>
-<img width="48%" alt="Screen Shot 2020-04-02 at 11 35 31 PM" src="https://user-images.githubusercontent.com/32201252/78332371-c150b180-753c-11ea-9f7a-58775ff1333e.png">
-<img width="48%" alt="Screen Shot 2020-04-02 at 11 34 56 PM" src="https://user-images.githubusercontent.com/32201252/78332379-c7df2900-753c-11ea-9c26-312fc46bd93f.png">
+<img width="48%" alt="Screen Shot 2020-04-03 at 12 02 40 AM" src="https://user-images.githubusercontent.com/32201252/78333423-a8490000-753e-11ea-951d-36e0eb2f8176.png">
+<img width="48%" alt="Screen Shot 2020-04-03 at 12 02 59 AM" src="https://user-images.githubusercontent.com/32201252/78333407-a41ce280-753e-11ea-8d42-dcc5a468ddcb.png">
 </div>
 
 #### Configuration: 
