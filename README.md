@@ -83,8 +83,10 @@
 1. Text Color
 
 ### Callout
+<div>
 <img width="48%" alt="Screen Shot 2020-04-02 at 11 35 31 PM" src="https://user-images.githubusercontent.com/32201252/78332371-c150b180-753c-11ea-9f7a-58775ff1333e.png">
 <img width="48%" alt="Screen Shot 2020-04-02 at 11 34 56 PM" src="https://user-images.githubusercontent.com/32201252/78332379-c7df2900-753c-11ea-9c26-312fc46bd93f.png">
+</div>
 
 #### Configuration: 
 1. Callout Direction (Top, Bottom, Left, Right)
