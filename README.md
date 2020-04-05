@@ -69,7 +69,7 @@
 1. Text Color
 
 ### Product Recommendations
-![Screen Shot 2020-04-04 at 8 53 15 PM](https://user-images.githubusercontent.com/32201252/78466508-ad30bf80-76b6-11ea-9c28-f33ca1104ba5.png)
+![Screen Shot 2020-04-04 at 9 01 17 PM](https://user-images.githubusercontent.com/32201252/78466579-714a2a00-76b7-11ea-8834-5acdc17f4eed.png)
 
 #### Configuration: 
 1. Title
