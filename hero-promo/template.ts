@@ -1,9 +1,6 @@
-export class HeroBannerPromo implements CampaignTemplateComponent {
+export class HomeHeroPromo implements CampaignTemplateComponent {
 
     contentZone: string = "Homepage Hero";
-
-    @hidden(true)
-    renderPosition: "replace";
 
     header: string;
 
