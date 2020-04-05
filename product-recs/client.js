@@ -2,7 +2,7 @@
 
   function apply(context, template, render) {
     var html = template(context);
-    Evergage.cashDom(".experience-component.experience-layouts-3_column").before(html);
+    Evergage.cashDom(".experience-component.experience-layouts-1_column:nth-of-type(10)").after(html);
   }
 
   function reset(context, template) {
