@@ -1,7 +1,8 @@
 (function() {
 
   function apply(context, template, render) {
-    render(context);   
+    var html = template(context);
+    Evergage.cashDom(".experience-component.experience-layouts-3_column").before(html);
   }
 
   function reset(context, template) {

@@ -2,10 +2,6 @@ import { RecommendationsConfig, RecipeReference, recommend } from "recs";
 
 export class ProductRecommendations implements CampaignTemplateComponent {
 
-    contentZone: "Featured Categories" | "Shop By Category";
-
-    renderPosition: "before";
-
     @title("Title")
     title: string;
     
@@ -24,3 +20,4 @@ export class ProductRecommendations implements CampaignTemplateComponent {
     }
     
 }
+
