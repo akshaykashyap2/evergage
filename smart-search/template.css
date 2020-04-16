@@ -16,7 +16,8 @@
 	padding: 5px;
 	font-weight: 700;
 	font-size: 18px;
-	line-height: 40px
+	line-height: 40px;
+	margin-left: 5px;
 }
 
 #evg-ssPanel {
@@ -144,11 +145,11 @@
 }
 
 #evg-ssSeeAllRecommendationsWrapper div {
-	margin-top: 29.5px;
+	margin-top: 25px;
 	display: inline-block;
 	text-align: center;
 	line-height: 26px;
-	height: 26px;
+	padding: 5px;
 	width: 245px;
 	background-color: #6dccee;
 	color: #fff
