@@ -1,6 +1,6 @@
 (function() {
-  function apply(context, template, render) {
-     
+function apply(context, template, render) {
+    
     /* jshint shadow:true */
 
     /**
@@ -16,16 +16,11 @@
 
     ajq(".suggestions-wrapper").remove();
 
-    // ajq = ajq || $;
-
     ajq.fn.smartSearch = function(options) {
 
         // The following are default settings that may be overridden
         var settings = ajq.extend({
             placeholder: "Search",
-            position: "absolute",
-            maxItems: 10,
-            maxSuggestions: 10,
             minHeight: 100,
             maxHeight: 300,
             width: 400,
@@ -35,7 +30,7 @@
             delay: 250,
             viewAllButton: true,
             viewAllText: "View All Recommendations",
-            ajax: { dataType: "jsonp"},
+            data: {},
             templateHtml: "<a href='{url}' class='evg-searchItemLink'><div class='evg-searchItemContainer'>" +
                 "<div class='evg-searchItemImageWrapper'><span></span><img src='{imageUrl}'></div>" +
                 "<div class='evg-searchItemText'>{name}</div></div></a>",
@@ -112,7 +107,6 @@
                 buildOverlayDiv();
             }
 
-
         }
 
         function buildOverlayDiv() {
@@ -181,17 +175,54 @@
             if (searchText) {
                 reloadSuggestions = typeof suggestion == "undefined";
                 var lowerCasedSearchText = searchText.toLowerCase();
-                var ajax = ajq.extend(settings.ajax,
-                        {
-                            data: {
-                            userId: settings.userId,
-                            query: lowerCasedSearchText,
-                            maxResults: settings.maxItems
-                        },
-                            success: handleResults
-                        });
 
-                ajq.ajax(ajax);
+                var requestUrl = settings.data.url + "&query=" + lowerCasedSearchText;
+
+                // Notes on making requests: 
+
+                // AJAX jsonp request
+                // No more AJAX since ajq has been replaced by Evergage.cashDom, which does not contain request methods.
+                // var data = ajq.extend(settings.data,
+                //         {
+                //             data: {
+                //             userId: settings.userId,
+                //             query: lowerCasedSearchText,
+                //             maxResults: settings.maxItems
+                //         },
+                //             success: handleResults
+                //         });
+                // ajq.ajax(data);
+
+                // XHR request won't work due to CORS error
+                // window.myJsonpCallback = function(data) {
+                //     handleResults;
+                // };
+                // var xhr = new XMLHttpRequest();
+                // xhr.open('GET', requestUrl, true); // Initializes the request. Third argument: async=true
+                // // xhr.onload = function() {
+                // // handleResults;
+                // // }
+                // xhr.send(); // sends the request
+
+                // jsonp request without ajax
+                // This is a temporary solution that circumvents the CORS error. According to John Watts on 4/20/20, we will eventually need to "change the server to support CORS for these requests" 
+                function jsonp(url, callback) {
+                    var callbackName = 'jsonp_callback_' + Math.round(100000 * Math.random());
+                    window[callbackName] = function(data) {
+                        delete window[callbackName];
+                        document.body.removeChild(script);
+                        callback(data);
+                    };
+
+                    var script = document.createElement('script');
+                    script.src = url + (url.indexOf('?') >= 0 ? '&' : '?') + 'callback=' + callbackName;
+                    document.body.appendChild(script);
+                }
+
+                jsonp(requestUrl, function(data) {
+                    handleResults(data);
+                });
+
             } else {
                 hidePanel();
             }
@@ -347,7 +378,7 @@
                 }
                 ssInputBox = ajq(element);
 
-                settings.ajax.url = generateSmartSearchUrl();
+                settings.data.url = generateSmartSearchUrl();
 
                 buildPanel();
 
@@ -378,7 +409,7 @@
         }
 
         function generateSmartSearchUrl() {
-            return generateBaseUrl() + settings.recipeId + "/smartSearch/?_ak=" + settings.account;
+            return generateBaseUrl() + settings.recipeId + "/smartSearch/?_ak=" + settings.account + "&userId=" + settings.userId + "&maxResults=" + settings.maxResults;
         }
 
         function focusSmartSearchAndBindArrows() {
@@ -453,14 +484,22 @@
         // );
         // ajq('.autocomplete-suggestions').remove();
     });
-    inputBox.smartSearch({
-        account: "interactionstudio",
-        dataset: "nto2",
-        recipeId: context.recipeId, // GAUUm
-        userId: context.userId,  
-        // messageId: "FGHIJ",
-        position: "relative",
-        maxItems: context.maxItems,
+    inputBox.smartSearch({ // following are "options" that are merged into "settings"
+    account: "interactionstudio",
+    dataset: "nto2",
+    recipeId: context.recipeId, // GAUUm
+    userId: context.userId,
+    // position: "absolute",
+    position: "relative",
+    maxResults: context.maxItems,
+    maxSuggestions: 10,
+    //   account: "interactionstudio",
+    //   dataset: "nto2",
+    //   recipeId: context.recipeId, // GAUUm
+    //   userId: context.userId,  
+    //   // messageId: "FGHIJ",
+    //   position: "relative",
+    //   maxItems: context.maxItems,
         submitGlobalSearchForm: function(termToSearch) {
             if (typeof (termToSearch) !== "string") {
                 termToSearch = ajq("#evg-ssPanel #evg-searchSuggestions").find("li.selected").text();
@@ -475,22 +514,22 @@
 
     // return Evergage.ExperienceJS && Evergage.ExperienceJS.DelayImpression;
     
-  }
+}
 
-  function reset(context, template) {
+function reset(context, template) {
     Evergage.cashDom("#evg-ssPanel").remove();
     Evergage.cashDom("input[type='search']").removeClass("eg-search");
     Evergage.smartSearchInitialized = false;
-  }
-  
-  function control() {
-    
-  }
+}
 
-  registerTemplate({
+function control() {
+    
+}
+
+registerTemplate({
     apply: apply,
     reset: reset,
     control: control
-  });
-  
+});
+
 })();
