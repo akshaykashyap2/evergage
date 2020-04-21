@@ -19,6 +19,7 @@
             // The following are default settings that may be overridden
             var settings = Evergage.cashDom.extend({
                 placeholder: "Search",
+                position: "absolute",
                 minHeight: 100,
                 maxHeight: 300,
                 width: 400,
@@ -443,35 +444,16 @@
         var inputBox = Evergage.cashDom("input[type='search']");
         inputBox.attr("autocomplete", "off");
         inputBox.on("focus keydown", function() {
-
             Evergage.cashDom(this).addClass("eg-search");
-            Evergage.cashDom(".suggestions-wrapper").remove();
-            // Evergage.util.runWhenReady( // todo
-            //     function() { 
-            //         return ajq('.autocomplete-suggestions').length > 0;
-            //     },
-            //     function() {
-            //         ajq('.autocomplete-suggestions').remove();
-            //     }
-            // );
-            // ajq('.autocomplete-suggestions').remove();
         });
         inputBox.smartSearch({ // following are "options" that are merged into "settings"
         account: "interactionstudio",
         dataset: "nto2",
-        recipeId: context.recipeId, // GAUUm
+        recipeId: context.recipeId,
         userId: context.userId,
-        // position: "absolute",
         position: "relative",
         maxResults: context.maxItems,
         maxSuggestions: 10,
-        //   account: "interactionstudio",
-        //   dataset: "nto2",
-        //   recipeId: context.recipeId, // GAUUm
-        //   userId: context.userId,  
-        //   // messageId: "FGHIJ",
-        //   position: "relative",
-        //   maxItems: context.maxItems,
             submitGlobalSearchForm: function(termToSearch) {
                 if (typeof (termToSearch) !== "string") {
                     termToSearch = Evergage.cashDom("#evg-ssPanel #evg-searchSuggestions").find("li.selected").text();
@@ -483,8 +465,6 @@
             },
             css: ""    
         });
-
-        // return Evergage.ExperienceJS && Evergage.ExperienceJS.DelayImpression;
 
     }
 
