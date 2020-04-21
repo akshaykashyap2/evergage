@@ -8,18 +8,16 @@
          * Copyright (C) 2010-2016 Evergage, Inc.
          */
 
-        ajq = $;
-
-        if (Evergage.smartSearchInitialized && ajq("input[type='search'].eg-search")) {
+        if (Evergage.smartSearchInitialized && Evergage.cashDom("input[type='search'].eg-search")) {
             return false;
         }
 
-        ajq(".suggestions-wrapper").remove();
+        Evergage.cashDom(".suggestions-wrapper").remove();
 
-        ajq.fn.smartSearch = function(options) {
+        Evergage.cashDom.fn.smartSearch = function(options) {
 
             // The following are default settings that may be overridden
-            var settings = ajq.extend({
+            var settings = Evergage.cashDom.extend({
                 placeholder: "Search",
                 minHeight: 100,
                 maxHeight: 300,
@@ -65,34 +63,34 @@
             }
 
             function blur(evt) {
-                ajq(ssPanel).fadeOut();
+                Evergage.cashDom(ssPanel).hide();
             }
 
 
             function buildPanel() {
 
-                ssPanel = ajq("<div id='evg-ssPanel'>");
-                ajq(ssPanel).hide();
+                ssPanel = Evergage.cashDom("<div id='evg-ssPanel'>");
+                Evergage.cashDom(ssPanel).hide();
 
-                ssSideBarPanel = ajq("<div id='evg-ssSidebarPanel'>");
+                ssSideBarPanel = Evergage.cashDom("<div id='evg-ssSidebarPanel'>");
 
-                ssQuickLinks = ajq("<span id='evg-quickLinks'>Quick Links</span>");
-                ssSuggestions = ajq("<ul id='evg-searchSuggestions'>");
+                ssQuickLinks = Evergage.cashDom("<span id='evg-quickLinks'>Quick Links</span>");
+                ssSuggestions = Evergage.cashDom("<ul id='evg-searchSuggestions'>");
                 ssSideBarPanel.append(ssQuickLinks);
                 ssSideBarPanel.append(ssSuggestions);
 
                 ssPanel.append(ssSideBarPanel);
 
-                ssResultsPanel = ajq("<div id='evg-ssResultsPanel'>");
-                ssResults = ajq("<ul id='evg-searchResults'>");
+                ssResultsPanel = Evergage.cashDom("<div id='evg-ssResultsPanel'>");
+                ssResults = Evergage.cashDom("<ul id='evg-searchResults'>");
                 ssResultsPanel.append(ssResults);
 
                 ssPanel.append(ssResultsPanel);
 
                 if (settings.viewAllButton === true) {
-                    ssSeeAllRecommendations = ajq("<div id='evg-ssSeeAllRecommendationsWrapper'><a href='javascript:;'><div>" + settings.viewAllText + "</div></a></div>");
+                    ssSeeAllRecommendations = Evergage.cashDom("<div id='evg-ssSeeAllRecommendationsWrapper'><a href='javascript:;'><div>" + settings.viewAllText + "</div></a></div>");
                 } else if (settings.viewAllButton) {
-                    ssSeeAllRecommendations = ajq(settings.viewAllButton);
+                    ssSeeAllRecommendations = Evergage.cashDom(settings.viewAllButton);
                 }
                 if (ssSeeAllRecommendations && typeof (settings.submitGlobalSearchForm) == "function") {
                     ssSeeAllRecommendations.on("click", function() {
@@ -110,18 +108,18 @@
             }
 
             function buildOverlayDiv() {
-                ajq("body").append("<div class='evergageOverlayDiv'></div>");
-                var overlayDivHeight = parseInt(ajq("body").css("height")) - parseInt(ajq("header").css("height"));
-                ajq(".evergageOverlayDiv").css("height", overlayDivHeight + "px");
-                ajq(".evergageOverlayDiv").css("top", ajq("header").css("height"));
+                Evergage.cashDom("body").append("<div class='evergageOverlayDiv'></div>");
+                var overlayDivHeight = parseInt(Evergage.cashDom("body").css("height")) - parseInt(Evergage.cashDom("header").css("height"));
+                Evergage.cashDom(".evergageOverlayDiv").css("height", overlayDivHeight + "px");
+                Evergage.cashDom(".evergageOverlayDiv").css("top", Evergage.cashDom("header").css("height"));
             }
 
             function showOverlayDiv() {
-                ajq(".evergageOverlayDiv").css("display", "inline");
+                Evergage.cashDom(".evergageOverlayDiv").css("display", "inline");
             }
 
             function hideOverlayDiv() {
-                ajq(".evergageOverlayDiv").css("display", "none");
+                Evergage.cashDom(".evergageOverlayDiv").css("display", "none");
             }
 
             // Show the search results panel
@@ -131,19 +129,19 @@
                 }
                 // position it at the bottom of the search input box
                 if (settings.position == "absolute") {
-                    var pos = ajq(ssInputBox).offset();
-                    var eWidth = ajq(ssInputBox).outerWidth();
-                    var mWidth = ajq(ssPanel).outerWidth();
+                    var pos = Evergage.cashDom(ssInputBox).offset();
+                    var eWidth = Evergage.cashDom(ssInputBox).outerWidth();
+                    var mWidth = Evergage.cashDom(ssPanel).outerWidth();
                     var left = (pos.left + eWidth - mWidth) + "px";
-                    var top = pos.top + ajq(ssInputBox).outerHeight() + "px";
-                    ajq(ssPanel).css({
+                    var top = pos.top + Evergage.cashDom(ssInputBox).outerHeight() + "px";
+                    Evergage.cashDom(ssPanel).css({
                         position: "absolute",
                         zIndex: 5000,
                         left: left,
                         top: top
                     });
                 } else {
-                    ajq(ssPanel).css({
+                    Evergage.cashDom(ssPanel).css({
                         position: "absolute",
                         zIndex: 5000,
                         right: 0
@@ -151,10 +149,10 @@
                 }
 
                 // if it is not yet visible, display it
-                if (!ssPanel.is(":visible")) {
-                    ajq(ssPanel).hide().fadeIn();
+                // if (!ssPanel.is(":visible")) {
+                    Evergage.cashDom(ssPanel).hide().show();
                     listenForClicksOutside();
-                }
+                // }
             }
 
             // Whenever someone types, deletes, pastes in the search box, start a timer that will execute the search
@@ -212,22 +210,22 @@
                         for (var i = 0; i < Math.min(settings.maxSuggestions, response.suggestedTerms.length); i++) {
                             var currentTerm = response.suggestedTerms[i];
                             if (currentTerm.termApproval === 'Blocked') {
-                                ssSuggestions.append(ajq("<li>" + currentTerm.termId.toUpperCase() + "</li>").css("display", "none"));
+                                ssSuggestions.append(Evergage.cashDom("<li>" + currentTerm.termId.toUpperCase() + "</li>").css("display", "none"));
                             } else {
-                                ssSuggestions.append(ajq("<li>" + currentTerm.termId.toUpperCase() + "</li>"));
+                                ssSuggestions.append(Evergage.cashDom("<li>" + currentTerm.termId.toUpperCase() + "</li>"));
                             }
                         }
-                        ajq(ssSuggestions).find('li').hover(function() {
-                            var text = ajq(this).text();
+                        Evergage.cashDom(ssSuggestions).find('li').on("mouseenter mouseleave", function() {
+                            var text = Evergage.cashDom(this).text();
                             clearTimeout(hoverTimer);
                             hoverTimer = setTimeout(function () {
                                 selectSuggestion(text);
                             }, 500);
 
-                        }).mouseout(function () {
+                        }).on("mouseout", function () {
                             clearTimeout(hoverTimer);
-                        }).click(function () {
-                            var text = ajq(this).text();
+                        }).on("click", function () {
+                            var text = Evergage.cashDom(this).text();
                             selectSuggestion(text);
                         });
                         highlightFirstSuggestion();
@@ -240,7 +238,7 @@
                         if ((item.name && item.name !== "") && (item.url && item.url !== "")) {
                             var associatedTerm = currentlySelectedSuggestion;
                             var itemBlock = buildItemBlock(item, associatedTerm);
-                            var li = ajq("<li>").append(itemBlock);
+                            var li = Evergage.cashDom("<li>").append(itemBlock);
                             li.attr("data-evg-item-id", item._id);
                             li.attr("data-evg-item-type", item.type);
                             li.attr("data-evg-item-tagType", item.tagType);
@@ -265,14 +263,14 @@
 
             // When results are returned from an input box search, highlight (but do not search the top suggestion)
             function highlightFirstSuggestion() {
-                ajq(ssSuggestions).find("li:first").attr("class", "selected");
-                currentlySelectedSuggestion = ajq(ssSuggestions).find("li:first").text();
+                Evergage.cashDom(ssSuggestions).find("li").first().attr("class", "selected");
+                currentlySelectedSuggestion = Evergage.cashDom(ssSuggestions).find("li").first().text();
             }
 
             // When someone hovers or clicks a suggestion, we rerun search, but don't clear the suggestion options
             function selectSuggestion(selectedSuggestion) {
                 if (selectedSuggestion !== currentlySelectedSuggestion) {
-                    var suggestion = ssSuggestions.find('li').filter(function(index) { return ajq(this).text() === selectedSuggestion; });
+                    var suggestion = ssSuggestions.find('li').filter(function(index) { return Evergage.cashDom(this).text() === selectedSuggestion; });
                     ssSuggestions.find('li').attr('class', '');
                     suggestion.attr('class', 'selected');
                     currentlySelectedSuggestion = selectedSuggestion;
@@ -310,14 +308,14 @@
 
             function listenForClicksOutside() {
                 if (!mouseUpListenerBound) {
-                    ajq(document).mouseup(hidePanel);
+                    Evergage.cashDom(document).on("mouseup", hidePanel);
                     mouseUpListenerBound = true;
                 }
             }
 
             function addSearchResultClickHandlers() {
-                ajq("#evg-searchResults").find(".evg-searchItemLink").click(function(e) {
-                    trackSmartSearchClickthrough(ajq(this));
+                Evergage.cashDom("#evg-searchResults").find(".evg-searchItemLink").on("click", function(e) {
+                    trackSmartSearchClickthrough(Evergage.cashDom(this));
                 });
             }
 
@@ -330,7 +328,7 @@
             }
 
             function hidePanel(e) {
-                var container = ajq("#evg-ssPanel");
+                var container = Evergage.cashDom("#evg-ssPanel");
 
                 if (typeof e == 'undefined' ||
                     (!container.is(e.target) && container.has(e.target).length === 0) &&
@@ -340,7 +338,7 @@
                     if (settings.overlay && (typeof e === 'undefined' || e.target.name !== "q")) {
                         hideOverlayDiv();
                     }
-                    ajq(document.removeEventListener('mouseup', hidePanel));
+                    Evergage.cashDom(document.removeEventListener('mouseup', hidePanel));
                 }
             }
 
@@ -348,15 +346,15 @@
             function init(element) {
                 if (!Evergage.smartSearchInitialized) {
                     if (settings.css) {
-                        ajq("head").append("<style>" + settings.css + "</style>");
+                        Evergage.cashDom("head").append("<style>" + settings.css + "</style>");
                     }
-                    ssInputBox = ajq(element);
+                    ssInputBox = Evergage.cashDom(element);
 
                     settings.data.url = generateSmartSearchUrl();
 
                     buildPanel();
 
-                    ssInputBox.focus(focus);
+                    ssInputBox.on("focus", focus);
 
                     if (settings.hideOnBlur) {
                         ssInputBox.blur(blur);
@@ -389,7 +387,7 @@
             function focusSmartSearchAndBindArrows() {
                 // if (!Evergage.meta.arrowKeysBound) {
                     // Evergage.meta.arrowKeysBound = true;
-                    ssInputBox.keydown(bindArrows);
+                    ssInputBox.on("keydown", bindArrows);
                 // }
             }
 
@@ -402,22 +400,22 @@
             }
 
             function selectNextTerm(isDown) {
-                var searchSuggestions = ajq("#evg-searchSuggestions");
+                var searchSuggestions = Evergage.cashDom("#evg-searchSuggestions");
                 if (searchSuggestions.find(".selected").length === 1 && ssInputBox.val()) {
                     for (var i = 0; i < searchSuggestions.find("li").length; i++) {
-                        var currentTerm = searchSuggestions.find("li:eq(" + i + ")");
+                        var currentTerm = searchSuggestions.find("li").eq(i);
                         if (currentTerm.hasClass("selected")) {
                             if (isDown) {
                                 if (i === searchSuggestions.find("li").length - 1) {
-                                    searchSuggestions.find("li:first").click();
+                                    searchSuggestions.find("li").first().trigger("click");
                                 } else {
-                                    searchSuggestions.find("li:eq(" + (i + 1) + ")").click();
+                                    searchSuggestions.find("li").eq(i + 1).trigger("click");
                                 }
                             } else {
                                 if (i === 0) {
-                                    searchSuggestions.find("li:last").click();
+                                    searchSuggestions.find("li").last().trigger("click");
                                 } else {
-                                    searchSuggestions.find("li:eq(" + (i - 1) + ")").click();
+                                    searchSuggestions.find("li").eq(i - 1).trigger("click");
                                 }
                             }
                             return;
@@ -442,12 +440,12 @@
             return this;
         };
 
-        var inputBox = ajq("input[type='search']");
+        var inputBox = Evergage.cashDom("input[type='search']");
         inputBox.attr("autocomplete", "off");
         inputBox.on("focus keydown", function() {
 
-            ajq(this).addClass("eg-search");
-            ajq(".suggestions-wrapper").remove();
+            Evergage.cashDom(this).addClass("eg-search");
+            Evergage.cashDom(".suggestions-wrapper").remove();
             // Evergage.util.runWhenReady( // todo
             //     function() { 
             //         return ajq('.autocomplete-suggestions').length > 0;
@@ -476,18 +474,18 @@
         //   maxItems: context.maxItems,
             submitGlobalSearchForm: function(termToSearch) {
                 if (typeof (termToSearch) !== "string") {
-                    termToSearch = ajq("#evg-ssPanel #evg-searchSuggestions").find("li.selected").text();
+                    termToSearch = Evergage.cashDom("#evg-ssPanel #evg-searchSuggestions").find("li.selected").text();
                 }
                 if (termToSearch) {
-                    ajq("#global_search_form input[type='text']").val(termToSearch.toLowerCase());
+                    Evergage.cashDom("#global_search_form input[type='text']").val(termToSearch.toLowerCase());
                 }
-                ajq("#global_search_form").submit();
+                Evergage.cashDom("#global_search_form").submit();
             },
             css: ""    
         });
 
         // return Evergage.ExperienceJS && Evergage.ExperienceJS.DelayImpression;
-        
+
     }
 
     function reset(context, template) {
@@ -497,7 +495,7 @@
     }
 
     function control() {
-        
+
     }
 
     registerTemplate({
