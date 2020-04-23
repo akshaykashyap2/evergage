@@ -346,9 +346,7 @@
 
             function init(element) {
                 if (!Evergage.smartSearchInitialized) {
-                    if (settings.css) {
-                        Evergage.cashDom("head").append("<style>" + settings.css + "</style>");
-                    }
+
                     ssInputBox = Evergage.cashDom(element);
 
                     settings.data.url = generateSmartSearchUrl();
@@ -462,8 +460,7 @@
                     Evergage.cashDom("#global_search_form input[type='text']").val(termToSearch.toLowerCase());
                 }
                 Evergage.cashDom("#global_search_form").submit();
-            },
-            css: ""    
+            }   
         });
 
     }
