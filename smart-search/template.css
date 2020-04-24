@@ -73,7 +73,7 @@
 	bottom: 0;
 	overflow-y: auto;
 	overflow-x: hidden;
-    margin-bottom: 87px;
+    margin-bottom: 92px;
 }
 
 #evg-searchResults {
@@ -132,7 +132,7 @@
 
 #evg-ssSeeAllRecommendationsWrapper {
 	position: absolute;
-	height: 85px;
+	height: 92px;
 	bottom: 0;
 	left: 150px;
 	right: 0;
@@ -145,7 +145,7 @@
 }
 
 #evg-ssSeeAllRecommendationsWrapper div {
-	margin-top: 25px;
+	margin-top: 28px;
 	display: inline-block;
 	text-align: center;
 	line-height: 26px;
