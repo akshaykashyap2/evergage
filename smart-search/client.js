@@ -383,10 +383,11 @@
             }
 
             function focusSmartSearchAndBindArrows() {
-                // if (!Evergage.meta.arrowKeysBound) {
-                    // Evergage.meta.arrowKeysBound = true;
+                Evergage.meta = false;
+                if (!Evergage.meta.arrowKeysBound) {
+                    Evergage.meta.arrowKeysBound = true;
                     ssInputBox.on("keydown", bindArrows);
-                // }
+                }
             }
 
             function bindArrows(event) {
