@@ -206,7 +206,7 @@
                 if ((response.suggestedTerms && response.suggestedTerms.length > 0) && (response.recommendedItems && response.recommendedItems.length > 0)) {
                     showPanel();
                     if (reloadSuggestions) {
-                        sendSmartSearchPageLoadAction();
+                        // sendSmartSearchPageLoadAction();
                         ssSuggestions.empty();
                         for (var i = 0; i < Math.min(settings.maxSuggestions, response.suggestedTerms.length); i++) {
                             var currentTerm = response.suggestedTerms[i];
@@ -254,13 +254,13 @@
                 }
             }
 
-            function sendSmartSearchPageLoadAction() {
-                if (Evergage.util.setCurrentPageLoadAction) {
-                    var actionName = "Show Smart Search Results";
-                    Evergage.util.setCurrentPageLoadAction(actionName);
-                    _aaq.push(["trackAction", actionName, {".pv": true}, false, false]); //Send a pageView action across when we present search results.
-                }
-            }
+            // function sendSmartSearchPageLoadAction() {
+            //     if (Evergage.util.setCurrentPageLoadAction) {
+            //         var actionName = "Show Smart Search Results";
+            //         Evergage.util.setCurrentPageLoadAction(actionName);
+            //         _aaq.push(["trackAction", actionName, {".pv": true}, false, false]); //Send a pageView action across when we present search results.
+            //     }
+            // }
 
             // When results are returned from an input box search, highlight (but do not search the top suggestion)
             function highlightFirstSuggestion() {
