@@ -383,7 +383,7 @@
             }
 
             function focusSmartSearchAndBindArrows() {
-                Evergage.meta = false;
+                Evergage.meta = {};
                 if (!Evergage.meta.arrowKeysBound) {
                     Evergage.meta.arrowKeysBound = true;
                     ssInputBox.on("keydown", bindArrows);
