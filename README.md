@@ -96,3 +96,10 @@
 1. Link URL
 1. Font (Helvetica, Roboto, Open Sans)
 1. Background Color
+
+### Smart Search
+![Screen Shot 2020-04-23 at 8 05 33 PM](https://user-images.githubusercontent.com/32201252/80170886-e06fbb80-859d-11ea-8b4e-19846ed42182.png)
+
+#### Configuration: 
+1. Recipe ID
+2. Max number of items
