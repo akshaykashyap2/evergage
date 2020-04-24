@@ -150,10 +150,10 @@
                 }
 
                 // if it is not yet visible, display it
-                // if (!ssPanel.is(":visible")) {
+                if (ssPanel.outerWidth() === 0 && ssPanel.outerHeight() === 0) {
                     Evergage.cashDom(ssPanel).hide().show();
                     listenForClicksOutside();
-                // }
+                }
             }
 
             // Whenever someone types, deletes, pastes in the search box, start a timer that will execute the search
@@ -342,7 +342,6 @@
                     Evergage.cashDom(document.removeEventListener('mouseup', hidePanel));
                 }
             }
-
 
             function init(element) {
                 if (!Evergage.smartSearchInitialized) {
