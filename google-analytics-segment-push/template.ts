@@ -9,6 +9,16 @@ export class GASegmentTemplate implements CampaignTemplateComponent {
     @subtitle("Enter a comma or space delimited list of the Google Analytics dimension numbers")
     gaDimensions: string
 
+    validate() {
+        let segmentCount = this.segments ? this.segments.length : 0;
+        return new Validator(this)
+            .applyPredicate("gaDimensions", function(val) {
+                let dimensionCount = val ? val.match(/\d+/g).length : 0;
+                return dimensionCount != segmentCount ? 'Number of dimensions must match number of segments chosen' : true
+            })
+            .errors;
+    }
+    
     run(context:CampaignComponentContext) {
 
         let userDimensions = this.gaDimensions ? this.gaDimensions.match(/\d+/g).map(Number) : []
