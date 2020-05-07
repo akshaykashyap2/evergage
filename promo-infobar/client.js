@@ -18,6 +18,8 @@
 
   function reset(context, template) {
     Evergage.cashDom("#evg-promo-code-infobar").remove();
+    Evergage.cashDom("body").css("margin-bottom", "0px");
+    Evergage.cashDom("body").css("margin-top", "0px");
   }
   
   function control() {
