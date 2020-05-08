@@ -28,6 +28,9 @@
 </div>
 
 #### Configuration: 
+
+![Screen Shot 2020-05-08 at 2 14 24 PM](https://user-images.githubusercontent.com/32201252/81450170-bdfda680-9136-11ea-8ef4-4e61be880ea3.png)
+
 1. Position
    1. Dropdown: Top, Bottom
 2. Body Text
