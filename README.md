@@ -51,6 +51,7 @@
 
 
 #### Configuration: 
+![Screen Shot 2020-05-07 at 8 37 34 PM](https://user-images.githubusercontent.com/32201252/81367622-a4128400-90a2-11ea-8dc1-06798c5c789a.png)
 1. Background Image URL
     - Ex: "https://www.northerntrailoutfitters.com/on/demandware.static/-/Library-Sites-NTO-SFRASharedLibrary/default/dw656a6e88/images/homepage/home-rain-gear-hero-450-600@2x.jpg"
 1. Header
