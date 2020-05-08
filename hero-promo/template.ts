@@ -1,5 +1,6 @@
 export class HomeHeroPromo implements CampaignTemplateComponent {
 
+    @hidden(true)
     contentZone: string = "Homepage Hero";
 
     header: string;
