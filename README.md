@@ -46,25 +46,25 @@
     - Bottom Infobar Ex: "#20c997"
 
 ### Email Capture Popup
-<div>
-<img width="48%" alt="Screen Shot 2020-03-20 at 8 18 44 PM" src="https://user-images.githubusercontent.com/32201252/77218651-d49a6080-6aea-11ea-93f4-1149febfeaa4.png">
+![Screen Shot 2020-05-07 at 8 31 14 PM](https://user-images.githubusercontent.com/32201252/81367320-c35ce180-90a1-11ea-81da-7cdee9c7b0c7.png)
+![Screen Shot 2020-05-07 at 8 31 28 PM](https://user-images.githubusercontent.com/32201252/81367326-c8219580-90a1-11ea-8212-9284954a1b5b.png)
 
-<img width="48%" alt="Screen Shot 2020-03-20 at 8 19 04 PM" src="https://user-images.githubusercontent.com/32201252/77218652-d6642400-6aea-11ea-882b-cdc85ca2397a.png">
-</div>
 
 #### Configuration: 
-1. Header
-    - Ex: "Join Rewards Club today and get 10% off your next order."
-1. CTA Text
-    - Ex: "Sign Me Up"
-1. Cancel Text
-    - Ex: "No Thanks"
-1. Confirmation Text
-    - Ex: "Thank You!"
-1. Confirmatin Subtext
-    - Ex: "Check your email for the discount code!"
 1. Background Image URL
     - Ex: "https://www.northerntrailoutfitters.com/on/demandware.static/-/Library-Sites-NTO-SFRASharedLibrary/default/dw656a6e88/images/homepage/home-rain-gear-hero-450-600@2x.jpg"
+1. Header
+    - Ex: "Get On The List"
+1. Subheader
+    - Ex: "Sign up for exclusive offers, events, and inspirations. Plus, get 10% off your next order!"  
+1. CTA Text
+    - Ex: "Sign Me Up"
+1. Opt-out Text
+    - Ex: "No Thanks"
+1. Confirmation Text (Text to display upon successful email submission)
+    - Ex: "Thank You"
+1. Confirmatin Subtext (Text to display below Confirmation Text)
+    - Ex: "Check your email for the discount code!"
 1. Font (Helvetica, Roboto, Open Sans)
 1. Text Color
 

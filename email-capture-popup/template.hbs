@@ -2,8 +2,11 @@
     <div class="evg-overlay"></div>
     <div class="evg-popup" style="background-image:url('{{imageUrl}}'); color: {{textColor.hex}}; font-family: {{font}}">
         <div class="evg-content">
-            <div class="evg-promo">
+            <div class="evg-header">
                 {{{header}}}
+            </div>
+            <div class="evg-subheader">
+                {{{subheader}}}
             </div>
             <form class="evg-form" action="" method="">
                 <input type="text" placeholder="Name">
@@ -12,8 +15,8 @@
                     {{ctaText}}
                 </button>
             </form>
-            <div class="evg-cancel">
-                {{cancelText}}
+            <div class="evg-opt-out">
+                {{optOutText}}
             </div>
         </div>
         <div class="evg-confirm-content evg-hide">

@@ -61,11 +61,16 @@
     text-align: center;
     width: 100%;
 }
-#evg-email-capture-popup .evg-promo {
+#evg-email-capture-popup .evg-header {
     display: inline-block;
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 10px;
     width: 400px;
+}
+#evg-email-capture-popup .evg-subheader {
+    display: inline-block;
+    font-size: 16px;
+    width: 350px;
 }
 #evg-email-capture-popup .evg-form {
     margin: 10px 0;
@@ -83,7 +88,7 @@
     padding: 10px 30px;
     text-decoration: none;
 }
-#evg-email-capture-popup .evg-cancel {
+#evg-email-capture-popup .evg-opt-out {
     cursor: pointer;
     font-size: 12px;
     text-decoration: underline;

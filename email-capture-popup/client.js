@@ -6,7 +6,7 @@
         Evergage.cashDom("body").append(html);
       
         Evergage.cashDom(
-                "#evg-email-capture-popup .evg-overlay, #evg-email-capture-popup .evg-close, #evg-email-capture-popup .evg-cancel"
+                "#evg-email-capture-popup .evg-overlay, #evg-email-capture-popup .evg-close, #evg-email-capture-popup .evg-opt-out"
             ).on("click", function() {
             Evergage.cashDom("#evg-email-capture-popup").remove();
         });
