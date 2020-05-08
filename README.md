@@ -4,6 +4,9 @@
 ![Screen Shot 2020-03-20 at 4 32 01 PM](https://user-images.githubusercontent.com/32201252/77213621-adcb3280-6ac8-11ea-94ec-7c049b775d8c.png)
 
 #### Configuration:
+
+![Screen Shot 2020-05-08 at 11 50 22 AM](https://user-images.githubusercontent.com/32201252/81438751-1d04f080-9122-11ea-810c-a6f0fbaf35e9.png)
+
 1. Content Zone
 2. Header
     - Ex: "Rewards Club"
