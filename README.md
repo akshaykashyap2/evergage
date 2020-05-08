@@ -46,28 +46,33 @@
     - Bottom Infobar Ex: "#20c997"
 
 ### Email Capture Popup
-![Screen Shot 2020-05-07 at 8 31 14 PM](https://user-images.githubusercontent.com/32201252/81367320-c35ce180-90a1-11ea-81da-7cdee9c7b0c7.png)
-![Screen Shot 2020-05-07 at 8 31 28 PM](https://user-images.githubusercontent.com/32201252/81367326-c8219580-90a1-11ea-8212-9284954a1b5b.png)
+<div>
+<img width="48%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/81368540-d8873f80-90a4-11ea-817b-b7cecd57a653.png">
 
+<img width="48%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/81368510-c73e3300-90a4-11ea-8539-0d99dcac603f.png">
+</div>
 
 #### Configuration: 
+<img width="50%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/81367622-a4128400-90a2-11ea-8dc1-06798c5c789a.png">
+
 ![Screen Shot 2020-05-07 at 8 37 34 PM](https://user-images.githubusercontent.com/32201252/81367622-a4128400-90a2-11ea-8dc1-06798c5c789a.png)
+
 1. Background Image URL
     - Ex: "https://www.northerntrailoutfitters.com/on/demandware.static/-/Library-Sites-NTO-SFRASharedLibrary/default/dw656a6e88/images/homepage/home-rain-gear-hero-450-600@2x.jpg"
-1. Header
+2. Header
     - Ex: "Get On The List"
-1. Subheader
+3. Subheader
     - Ex: "Sign up for exclusive offers, events, and inspirations. Plus, get 10% off your next order!"  
-1. CTA Text
+4. CTA Text
     - Ex: "Sign Me Up"
-1. Opt-out Text
+5. Opt-out Text
     - Ex: "No Thanks"
-1. Confirmation Text (Text to display upon successful email submission)
+6. Confirmation Text (Text to display upon successful email submission)
     - Ex: "Thank You"
-1. Confirmatin Subtext (Text to display below Confirmation Text)
+7. Confirmatin Subtext (Text to display below Confirmation Text)
     - Ex: "Check your email for the discount code!"
-1. Font (Helvetica, Roboto, Open Sans)
-1. Text Color
+8. Font (Helvetica, Roboto, Open Sans)
+9. Text Color
 
 ### Product Recommendations
 ![Screen Shot 2020-04-04 at 9 01 17 PM](https://user-images.githubusercontent.com/32201252/78466579-714a2a00-76b7-11ea-8834-5acdc17f4eed.png)
