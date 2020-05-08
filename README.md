@@ -20,11 +20,11 @@
 7. Text Color
 
 ### Promo Infobar
-<div>
-<img width="48%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/77837994-71c94a80-7124-11ea-900a-4971eaec48ba.png">
+<div align="center">
+<img width="80%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/77837994-71c94a80-7124-11ea-900a-4971eaec48ba.png">
 
 
-<img width="48%" alt="Screen Shot 2020-03-30 at 9 23 33 PM" src="https://user-images.githubusercontent.com/32201252/77986749-c3143e00-72cc-11ea-9d6e-c6f0dd781cd9.png">
+<img width="80%" alt="Screen Shot 2020-03-30 at 9 23 33 PM" src="https://user-images.githubusercontent.com/32201252/77986749-c3143e00-72cc-11ea-9d6e-c6f0dd781cd9.png">
 </div>
 
 #### Configuration: 
