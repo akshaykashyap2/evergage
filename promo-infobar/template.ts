@@ -12,18 +12,20 @@ export class PromoCodeInfobar implements CampaignTemplateComponent {
     infobarPosition: ComplexType;
 
     @richText(true)
-    bodyText: string;
+    mainText: string;
 
-    bodyTextColor: Color;
+    mainTextColor: Color;
 
     @richText(true)
-    linkText: string;
+    @title('CTA Text')
+    ctaText: string;
     
     @richText(true)
-    linkTextColor: Color;
+    @title('CTA Text Color')
+    ctaTextColor: Color;
 
-    @title('Link URL')
-    destinationUrl: string;
+    @title('CTA URL')
+    ctaUrl: string;
 
     @buttonGroup(true)
     font: "Helvetica" | "Roboto" | "Open Sans";
