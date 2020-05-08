@@ -46,7 +46,7 @@
     - Bottom Infobar Ex: "#20c997"
 
 ### Email Capture Popup
-<div style="text-align:center">
+<div align="center">
 <img width="80%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/81368540-d8873f80-90a4-11ea-817b-b7cecd57a653.png">
 
 <img width="80%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/81368510-c73e3300-90a4-11ea-8539-0d99dcac603f.png">
