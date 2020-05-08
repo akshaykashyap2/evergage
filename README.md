@@ -46,15 +46,13 @@
     - Bottom Infobar Ex: "#20c997"
 
 ### Email Capture Popup
-<div>
-<img width="48%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/81368540-d8873f80-90a4-11ea-817b-b7cecd57a653.png">
+<div style="text-align:center">
+<img width="80%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/81368540-d8873f80-90a4-11ea-817b-b7cecd57a653.png">
 
-<img width="48%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/81368510-c73e3300-90a4-11ea-8539-0d99dcac603f.png">
+<img width="80%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/81368510-c73e3300-90a4-11ea-8539-0d99dcac603f.png">
 </div>
 
 #### Configuration: 
-<img width="50%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/81367622-a4128400-90a2-11ea-8dc1-06798c5c789a.png">
-
 ![Screen Shot 2020-05-07 at 8 37 34 PM](https://user-images.githubusercontent.com/32201252/81367622-a4128400-90a2-11ea-8dc1-06798c5c789a.png)
 
 1. Background Image URL
