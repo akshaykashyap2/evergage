@@ -1,5 +1,8 @@
 export class HomeHeroPromo implements CampaignTemplateComponent {
 
+    @title('Background Image URL')
+    imageURL: string;
+    
     @hidden(true)
     contentZone: string = "Homepage Hero";
 
@@ -11,9 +14,6 @@ export class HomeHeroPromo implements CampaignTemplateComponent {
     ctaText: string;
 
     destinationURL: string;
-
-    @title('Background Image URL')
-    imageURL: string;
 
     @buttonGroup(true)
     font: "Helvetica" | "Roboto" | "Open Sans";
