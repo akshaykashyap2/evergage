@@ -7,7 +7,8 @@
 
 ![Screen Shot 2020-05-08 at 11 50 22 AM](https://user-images.githubusercontent.com/32201252/81438751-1d04f080-9122-11ea-810c-a6f0fbaf35e9.png)
 
-1. Content Zone
+1. Background Image URL
+    - "https://www.northerntrailoutfitters.com/dw/image/v2/BDPX_PRD/on/demandware.static/-/Library-Sites-NTO-SFRASharedLibrary/default/dw8dec29a5/images/stories/stories-hero-05-1800-600.jpg"
 2. Header
     - Ex: "Rewards Club"
 3. Body Text
@@ -15,12 +16,8 @@
 4. CTA Text
     - Ex: "JOIN NOW"
 5. Destination URL
-6. Background Image URL
-    - "https://www.northerntrailoutfitters.com/dw/image/v2/BDPX_PRD/on/demandware.static/-/Library-Sites-NTO-SFRASharedLibrary/default/dw8dec29a5/images/stories/stories-hero-05-1800-600.jpg"
-7. Font (Helvetica, Roboto, Open Sans)
-8. Text Color
-
-
+6. Font (Helvetica, Roboto, Open Sans)
+7. Text Color
 
 ### Promo Infobar
 <div>
