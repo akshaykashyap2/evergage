@@ -112,7 +112,6 @@
 
 #### Configuration: 
 1. Recipe ID
-2. Max number of items
 
 ### Hero Banner Contextual Bandit
 ![Screen Shot 2020-04-29 at 12 27 33 AM](https://user-images.githubusercontent.com/32201252/80572578-5cf60600-89b3-11ea-8ff4-d6727a5824dc.png)
