@@ -108,7 +108,7 @@
 1. Background Color
 
 ### Smart Search
-![Screen Shot 2020-04-23 at 8 05 33 PM](https://user-images.githubusercontent.com/32201252/80170886-e06fbb80-859d-11ea-8b4e-19846ed42182.png)
+![Screen Shot 2020-05-09 at 3 14 11 PM](https://user-images.githubusercontent.com/32201252/81486151-bfe36a80-9207-11ea-8bd1-f6cbced0b079.png)
 
 #### Configuration: 
 ![Screen Shot 2020-05-09 at 3 11 53 PM](https://user-images.githubusercontent.com/32201252/81486113-6d09b300-9207-11ea-9627-b84b49b6d98f.png)
