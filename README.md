@@ -105,7 +105,7 @@
 
 1. Callout Direction (Top, Bottom, Left, Right)
 1. Body Text
-    - Ex: "Ask us questions here! Or checkout our"
+    - Ex: "Ask us questions here! Or check out our"
 1. Body Text Color
 1. Link Text
     - Ex: "Help Community"
