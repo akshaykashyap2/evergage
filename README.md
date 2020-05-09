@@ -86,17 +86,20 @@
 2. Recipe
 
 ### Callout
-<div>
-<img width="48%" alt="Screen Shot 2020-04-03 at 12 02 40 AM" src="https://user-images.githubusercontent.com/32201252/78333423-a8490000-753e-11ea-951d-36e0eb2f8176.png">
-<img width="48%" alt="Screen Shot 2020-04-03 at 12 02 59 AM" src="https://user-images.githubusercontent.com/32201252/78333407-a41ce280-753e-11ea-8d42-dcc5a468ddcb.png">
+
+<div align="center">
+<img width="80%" alt="" src="https://user-images.githubusercontent.com/32201252/81485711-1cdd2180-9204-11ea-8f6c-1203c41a34f9.png">
+
+<img width="80%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/81485720-1fd81200-9204-11ea-9320-3620fc5ed9ff.png">
 </div>
 
 #### Configuration: 
 1. Callout Direction (Top, Bottom, Left, Right)
 1. Body Text
-    - Ex: "Have questions? Ask us here!"
+    - Ex: "Ask us questions here! Or checkout our"
 1. Body Text Color
 1. Link Text
+    - Ex: "Help Community"
 1. Link Text Color
 1. Link URL
 1. Font (Helvetica, Roboto, Open Sans)

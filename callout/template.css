@@ -1,3 +1,13 @@
+#evg-callout .evg-container {
+    display: inline;
+}
+
+#evg-callout .evg-description {
+    font-size: 15px;
+    display: block;   
+    margin: 0px;
+}
+
 #evg-callout {
     box-sizing: border-box;
     display: -webkit-box;
@@ -13,26 +23,20 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 5px;
+    padding: 8px;
     position: absolute;
     text-align: center;
-    width: 150px;
+    width: 170px;
     z-index: 10000000;    
 }
-#evg-callout .evg-link {
+
+#evg-callout .evg-cta {
     display: block;
     font-size: 14px;
     text-decoration: none;
     line-height: normal;
 }
-#evg-callout .evg-container {
-    display: inline;
-}
-#evg-callout .evg-description {
-    display: block;   
-    font-size: 14px; 
-    margin: 0px;
-}
+
 #evg-callout #evg-callout-arrow.top, 
 #evg-callout #evg-callout-arrow.bottom, 
 #evg-callout #evg-callout-arrow.left, 
