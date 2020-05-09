@@ -76,7 +76,7 @@
 9. Text Color
 
 ### Product Recommendations
-![Screen Shot 2020-04-04 at 9 01 17 PM](https://user-images.githubusercontent.com/32201252/78466579-714a2a00-76b7-11ea-8834-5acdc17f4eed.png)
+![Screen Shot 2020-05-08 at 6 32 30 PM](https://user-images.githubusercontent.com/32201252/81460417-0c706c80-915a-11ea-80b3-2d841ecb8ffd.png)
 
 #### Configuration: 
 1. Recommendations Row Header
