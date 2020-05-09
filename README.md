@@ -94,6 +94,8 @@
 </div>
 
 #### Configuration: 
+![Screen Shot 2020-05-09 at 2 58 53 PM](https://user-images.githubusercontent.com/32201252/81485876-9c1f2500-9205-11ea-9ce8-2bd8d3e4e762.png)
+
 1. Callout Direction (Top, Bottom, Left, Right)
 1. Body Text
     - Ex: "Ask us questions here! Or checkout our"
