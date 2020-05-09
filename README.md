@@ -32,21 +32,28 @@
 ![Screen Shot 2020-05-08 at 2 14 24 PM](https://user-images.githubusercontent.com/32201252/81450170-bdfda680-9136-11ea-8ef4-4e61be880ea3.png)
 
 1. Position
-   1. Dropdown: Top, Bottom
+    -  Dropdown: Top, Bottom
 2. Body Text
-    - Top Infobar Ex: "Get free 2-day shipping with any $50 purchase. Ends 4/25!"
+    - Top Infobar 
+      - Ex: "Get free 2-day shipping with any $50 purchase. Ends 4/25!"
 3. Body Text Color
 4. Link Text
-    - Top Infobar Ex: "SHOP NOW"
-    - Bottom Infobar Ex: "Bottom Infobar Ex: "Sign up for our newsletter and get 5% off your next order! ➔"
+    - Top Infobar 
+      - Ex: "SHOP NOW"
+    - Bottom Infobar 
+      - Ex: "Bottom Infobar Ex: "Sign up for our newsletter and get 5% off your next order! ➔"
 5. Link Text Color
-    - Top Infobar Ex: "#20c997"
-    - Bottom Infobar Ex: "#FFFFFF"
+    - Top Infobar 
+      - Ex: "#20c997"
+    - Bottom Infobar 
+      - Ex: "#FFFFFF"
 6. Link URL
 7. Font (Helvetica, Roboto, Open Sans)
 8. Background Color
-    - Top Infobar Ex: "#343a40"
-    - Bottom Infobar Ex: "#20c997"
+    - Top Infobar 
+      - Ex: "#343a40"
+    - Bottom Infobar 
+      - Ex: "#20c997"
 
 ### Email Capture Popup
 <div align="center">
