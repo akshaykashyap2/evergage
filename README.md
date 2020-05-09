@@ -79,9 +79,11 @@
 ![Screen Shot 2020-05-08 at 6 32 30 PM](https://user-images.githubusercontent.com/32201252/81460417-0c706c80-915a-11ea-80b3-2d841ecb8ffd.png)
 
 #### Configuration: 
+<img width="355" alt="Screen Shot 2020-05-08 at 6 39 18 PM" src="https://user-images.githubusercontent.com/32201252/81460611-4db54c00-915b-11ea-9ce6-ed9365d28f46.png">
+
 1. Recommendations Row Header
     - Ex: "Recommended For You"
-1. Recipe
+2. Recipe
 
 ### Callout
 <div>
