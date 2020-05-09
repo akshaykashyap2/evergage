@@ -1,16 +1,16 @@
-<div id="evg-product-recs" style="color: {{textColor.hex}}; font-family: {{font}}">
-    <div class="evg-recs-title">
-        {{title}}
+<div id="evg-product-recs" style="color: #565656;">
+    <div class="evg-recs-header">
+        {{header}}
     </div>
     {{#each items}}
     <div class="evg-item">
         <a href="{{attributes.url.value}}">
             <img src="{{attributes.imageUrl.value}}" alt="{{attributes.name.value}}"/>
         </a>
-            <div>
-                <span><a href="{{attributes.url.value}}"  style="color:#393939; font-weight: 600; text-decoration: none; white-space: no-wrap; font-size:14px;">{{attributes.name.value}}</a></span>
-            </div>
-        <div style="color:#565656; font-weight: 600; margin-bottom: 0; font-size:13px;">
+        <div style="margin-bottom: 8px">
+            <span><a href="{{attributes.url.value}}" style="color:#393939; font-weight: 600; text-decoration: none; white-space: no-wrap; font-size:15px;">{{attributes.name.value}}</a></span>
+        </div>
+        <div style="color:#565656; font-weight: 600; margin-bottom: 0; font-size:15px;">
             ${{attributes.price.value}}
         </div>
     </div>

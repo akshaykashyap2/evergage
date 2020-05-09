@@ -79,13 +79,9 @@
 ![Screen Shot 2020-04-04 at 9 01 17 PM](https://user-images.githubusercontent.com/32201252/78466579-714a2a00-76b7-11ea-8834-5acdc17f4eed.png)
 
 #### Configuration: 
-1. Title
-    - Ex: "Product Recommendations"
-2. Recipe
-3. Max Results
-4. Exclusions
-5. Font (Helvetica, Roboto, Open Sans)
-6. Text Color
+1. Recommendations Row Header
+    - Ex: "Recommended For You"
+1. Recipe
 
 ### Callout
 <div>

@@ -1,23 +1,23 @@
-import { RecommendationsConfig, RecipeReference, recommend } from "recs";
+import { RecipeReference, RecipeReferenceLookup, recommend } from "recs";
 
 export class ProductRecommendations implements CampaignTemplateComponent {
 
-    @title("Title")
-    title: string;
-    
-    @title("Recommendations")
-    recipe: RecommendationsConfig = new RecommendationsConfig({itemType: "Product"});
+    @title("Recommendations Row Header")
+    header: string;
 
-    @buttonGroup(true)
-    font: "Helvetica" | "Roboto" | "Open Sans";
-
-    textColor: Color;
+    @lookupOptions((self) => new RecipeReferenceLookup("Product"))
+    @title("Recipe")
+    recipeId: RecipeReference;
 
     run(context:CampaignComponentContext) {
+        const items = recommend(context, {
+            itemType: "Product",
+            maxResults: 4,
+            recipeId: this.recipeId,
+            validate: () => true
+        });
         return {
-            items: recommend(context, this.recipe)
+            items
         };
     }
-    
 }
-
