@@ -95,9 +95,9 @@
 ### Callout
 
 <div align="center">
-<img width="80%" alt="" src="https://user-images.githubusercontent.com/32201252/81485711-1cdd2180-9204-11ea-8f6c-1203c41a34f9.png">
+<img width="80%" alt="" src="https://user-images.githubusercontent.com/32201252/81486703-7ac13780-920b-11ea-8bf6-673f5a69529f.png">
 
-<img width="80%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/81485720-1fd81200-9204-11ea-9320-3620fc5ed9ff.png">
+<img width="80%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/81486704-7dbc2800-920b-11ea-9816-c54e51bb9e23.png">
 </div>
 
 #### Configuration: 
