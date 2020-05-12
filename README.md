@@ -86,7 +86,7 @@
 ![Screen Shot 2020-05-08 at 6 32 30 PM](https://user-images.githubusercontent.com/32201252/81460417-0c706c80-915a-11ea-80b3-2d841ecb8ffd.png)
 
 #### Configuration: 
-<img width="355" alt="Screen Shot 2020-05-08 at 6 39 18 PM" src="https://user-images.githubusercontent.com/32201252/81460611-4db54c00-915b-11ea-9ce6-ed9365d28f46.png">
+![Screen Shot 2020-05-11 at 5 39 45 PM](https://user-images.githubusercontent.com/32201252/81625668-69fcf700-93ae-11ea-8b41-b35b754a2b58.png)
 
 1. Recommendations Row Header
     - Ex: "Recommended For You"
