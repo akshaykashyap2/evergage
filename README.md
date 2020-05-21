@@ -1,6 +1,6 @@
 # Evergage Global Templates
 
-### Hero Banner Promo
+### Hero Banner With Call-To-Action
 ![Screen Shot 2020-03-20 at 4 32 01 PM](https://user-images.githubusercontent.com/32201252/77213621-adcb3280-6ac8-11ea-94ec-7c049b775d8c.png)
 
 #### Configuration:

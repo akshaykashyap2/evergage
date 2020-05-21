@@ -1,4 +1,4 @@
-export class HomeHeroPromo implements CampaignTemplateComponent {
+export class HeroBannerCta implements CampaignTemplateComponent {
 
     @title('Background Image URL')
     imageURL: string;
