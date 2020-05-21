@@ -7,17 +7,17 @@
       if (context.infobarPosition.position === "top") {
         Evergage.cashDom("body").css("margin-bottom", "0px");
         Evergage.cashDom("body").css("margin-top", "40px");
-        Evergage.cashDom("#evg-promo-code-infobar").css("top", "0px");
+        Evergage.cashDom("#evg-infobar-cta").css("top", "0px");
       } else {
         Evergage.cashDom("body").css("margin-bottom", "40px");
         Evergage.cashDom("body").css("margin-top", "0px");
-        Evergage.cashDom("#evg-promo-code-infobar").css("bottom", "0px");
+        Evergage.cashDom("#evg-infobar-cta").css("bottom", "0px");
       }
     }
   }
 
   function reset(context, template) {
-    Evergage.cashDom("#evg-promo-code-infobar").remove();
+    Evergage.cashDom("#evg-infobar-cta").remove();
     Evergage.cashDom("body").css("margin-bottom", "0px");
     Evergage.cashDom("body").css("margin-top", "0px");
   }

@@ -1,6 +1,6 @@
 # Evergage Global Templates
 
-### Hero Banner With Call-To-Action
+### Hero Banner With Call-to-Action
 ![Screen Shot 2020-03-20 at 4 32 01 PM](https://user-images.githubusercontent.com/32201252/77213621-adcb3280-6ac8-11ea-94ec-7c049b775d8c.png)
 
 #### Configuration:
@@ -19,7 +19,7 @@
 6. Font (Helvetica, Roboto, Open Sans)
 7. Text Color
 
-### Promo Infobar
+### Infobar with Call-to-Action
 <div align="center">
 <img width="80%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/77837994-71c94a80-7124-11ea-900a-4971eaec48ba.png">
 

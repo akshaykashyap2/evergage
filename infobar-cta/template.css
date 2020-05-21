@@ -1,4 +1,4 @@
-#evg-promo-code-infobar {
+#evg-infobar-cta {
     box-sizing: border-box;
     height: 40px;
     display: -webkit-box;
@@ -20,14 +20,14 @@
     width: 100%;
     z-index: 10000000;    
 }
-#evg-promo-code-infobar .evg-cta {
+#evg-infobar-cta .evg-cta {
     font-size: 14px;
     text-decoration: none;
 }
-#evg-promo-code-infobar .evg-container {
+#evg-infobar-cta .evg-container {
     display: inline;
 }
-#evg-promo-code-infobar .evg-text {
+#evg-infobar-cta .evg-main {
     font-size: 14px; 
     display: inline;   
 }
