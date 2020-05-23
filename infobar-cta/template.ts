@@ -14,23 +14,16 @@ export class InfobarCta implements CampaignTemplateComponent {
     @richText(true)
     mainText: string;
 
-    mainTextColor: Color;
-
     @richText(true)
     @title('CTA Text')
     ctaText: string;
-    
-    @richText(true)
-    @title('CTA Text Color')
-    ctaTextColor: Color;
 
-    @title('CTA URL')
+    @title('CTA Destination URL')
+    @subtitle("Enter a fully qualified destination URL for the CTA e.g. https://www.northerntrailoutfitters.com")
     ctaUrl: string;
 
     @buttonGroup(true)
-    font: "Helvetica" | "Roboto" | "Open Sans";
-    
-    backgroundColor: Color;
+    style: "Dark on Light" | "Light on Dark";
 
     run(context:CampaignComponentContext) {
         return {};

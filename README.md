@@ -21,39 +21,29 @@
 
 ### Infobar with Call-to-Action
 <div align="center">
-<img width="80%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/77837994-71c94a80-7124-11ea-900a-4971eaec48ba.png">
+<img width="80%" alt="Screen Shot 2020-05-23 at 12 27 08 AM" src="https://user-images.githubusercontent.com/32201252/82724609-25b20680-9c8c-11ea-970f-2b411e26b233.png">
 
-
-<img width="80%" alt="Screen Shot 2020-03-30 at 9 23 33 PM" src="https://user-images.githubusercontent.com/32201252/77986749-c3143e00-72cc-11ea-9d6e-c6f0dd781cd9.png">
+<img width="80%" alt="Screen Shot 2020-05-23 at 12 29 06 AM" src="https://user-images.githubusercontent.com/32201252/82724650-6c9ffc00-9c8c-11ea-9aff-78dded841f87.png">
 </div>
 
 #### Configuration: 
 
-![Screen Shot 2020-05-08 at 2 14 24 PM](https://user-images.githubusercontent.com/32201252/81450170-bdfda680-9136-11ea-8ef4-4e61be880ea3.png)
+<img width="356" alt="Screen Shot 2020-05-23 at 12 37 35 AM" src="https://user-images.githubusercontent.com/32201252/82724814-9b6aa200-9c8d-11ea-85b7-757677dd8284.png">
 
-1. Position
+1. Infobar Position
     -  Dropdown: Top, Bottom
-2. Body Text
+1. Main Text
     - Top Infobar 
       - Ex: "Get free 2-day shipping with any $50 purchase. Ends 4/25!"
-3. Body Text Color
-4. Link Text
+    - Bottom Infobar:
+      - Ex: "Refer a friend and get $25 off your next purchase!"
+2. CTA Text
     - Top Infobar 
       - Ex: "SHOP NOW"
     - Bottom Infobar 
-      - Ex: "Bottom Infobar Ex: "Sign up for our newsletter and get 5% off your next order! ➔"
-5. Link Text Color
-    - Top Infobar 
-      - Ex: "#20c997"
-    - Bottom Infobar 
-      - Ex: "#FFFFFF"
-6. Link URL
-7. Font (Helvetica, Roboto, Open Sans)
-8. Background Color
-    - Top Infobar 
-      - Ex: "#343a40"
-    - Bottom Infobar 
-      - Ex: "#20c997"
+      - Ex: "Learn More"
+3. CTA Destination URL
+4. Style (Dark on Light, Light on Dark)
 
 ### Email Capture Popup
 <div align="center">

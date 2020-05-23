@@ -13,6 +13,12 @@
         Evergage.cashDom("body").css("margin-top", "0px");
         Evergage.cashDom("#evg-infobar-cta").css("bottom", "0px");
       }
+
+      if (context.style === "Dark on Light") {
+        Evergage.cashDom("#evg-infobar-cta").addClass("evg-dark");
+      } else {
+        Evergage.cashDom("#evg-infobar-cta").addClass("evg-light");
+      }
     }
   }
 
