@@ -1,5 +1,5 @@
 #evg-hero-cta {
-    background-color: #FFF;
+    background-color: #ffffff;
     background-size: cover;
     height: 500px;
     width: 100%;
@@ -35,7 +35,7 @@
     line-height: 30px;
     margin: 40px;
 }
-#evg-hero-cta .evg-body {
+#evg-hero-cta .evg-subheader {
     display: block;
     font-size: 22px;
     line-height: 40px;
@@ -48,4 +48,18 @@
     font-size: 20px;
     padding: 10px 30px;
     text-decoration: none;
+}
+#evg-hero-cta.evg-light {
+    color: #ffffff;
+}
+#evg-hero-cta.evg-dark {
+    color: #343a40;
+}
+#evg-hero-cta .evg-light {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+#evg-hero-cta .evg-dark {
+    border: 2px solid #343a40;
+    color: #343a40;
 }

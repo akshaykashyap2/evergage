@@ -1,23 +1,23 @@
 # Evergage Global Templates
 
 ### Hero Banner With Call-to-Action
-![Screen Shot 2020-03-20 at 4 32 01 PM](https://user-images.githubusercontent.com/32201252/77213621-adcb3280-6ac8-11ea-94ec-7c049b775d8c.png)
+![Screen Shot 2020-05-26 at 4 43 21 PM](https://user-images.githubusercontent.com/32201252/82960688-09ee7f00-9f70-11ea-88b2-e476e995edf4.png)
 
 #### Configuration:
 
-![Screen Shot 2020-05-08 at 11 50 22 AM](https://user-images.githubusercontent.com/32201252/81438751-1d04f080-9122-11ea-810c-a6f0fbaf35e9.png)
+![Screen Shot 2020-05-26 at 4 25 24 PM](https://user-images.githubusercontent.com/32201252/82959816-8338a280-9f6d-11ea-8f51-7aa8abe0533b.png)
+
 
 1. Background Image URL
     - "https://www.northerntrailoutfitters.com/dw/image/v2/BDPX_PRD/on/demandware.static/-/Library-Sites-NTO-SFRASharedLibrary/default/dw8dec29a5/images/stories/stories-hero-05-1800-600.jpg"
 2. Header
     - Ex: "Rewards Club"
-3. Body Text
+3. Subheader
     - Ex: "Start earning 5% back every time you shop. It's free to join!"
 4. CTA Text
     - Ex: "JOIN NOW"
-5. Destination URL
-6. Font (Helvetica, Roboto, Open Sans)
-7. Text Color
+5. CTA Destination URL
+6. Style (Dark on Light, Light on Dark)
 
 ### Infobar with Call-to-Action
 <div align="center">

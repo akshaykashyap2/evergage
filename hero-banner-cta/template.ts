@@ -8,17 +8,17 @@ export class HeroBannerCta implements CampaignTemplateComponent {
 
     header: string;
 
-    bodyText: string;
+    subheader: string;
 
     @title('CTA Text')
     ctaText: string;
 
-    destinationURL: string;
+    @title('CTA Destination URL')
+    @subtitle("Enter a fully qualified destination URL for the CTA (e.g., https://www.northerntrailoutfitters.com)")
+    ctaUrl: string;
 
     @buttonGroup(true)
-    font: "Helvetica" | "Roboto" | "Open Sans";
-    
-    textColor: Color;
+    style: "Dark on Light" | "Light on Dark";
 
     run(context:CampaignComponentContext) {
         return {};
