@@ -19,7 +19,7 @@ export class InfobarCta implements CampaignTemplateComponent {
     ctaText: string;
 
     @title('CTA Destination URL')
-    @subtitle("Enter a fully qualified destination URL for the CTA e.g. https://www.northerntrailoutfitters.com")
+    @subtitle("Enter a fully qualified destination URL for the CTA (e.g., https://www.northerntrailoutfitters.com)")
     ctaUrl: string;
 
     @buttonGroup(true)
