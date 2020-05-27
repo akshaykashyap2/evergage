@@ -5,7 +5,8 @@
 
 #### Configuration:
 
-![Screen Shot 2020-05-26 at 4 25 24 PM](https://user-images.githubusercontent.com/32201252/82959816-8338a280-9f6d-11ea-8f51-7aa8abe0533b.png)
+![Screen Shot 2020-05-26 at 11 03 11 PM](https://user-images.githubusercontent.com/32201252/82983510-150fd200-9fa5-11ea-9c5a-16d2f2862a25.png)
+
 
 
 1. Background Image URL
@@ -28,7 +29,7 @@
 
 #### Configuration: 
 
-<img width="356" alt="Screen Shot 2020-05-23 at 12 37 35 AM" src="https://user-images.githubusercontent.com/32201252/82724814-9b6aa200-9c8d-11ea-85b7-757677dd8284.png">
+![Screen Shot 2020-05-26 at 10 52 17 PM](https://user-images.githubusercontent.com/32201252/82982696-8f3f5700-9fa3-11ea-9d79-99624ab2bb7e.png)
 
 1. Infobar Position
     -  Dropdown: Top, Bottom

@@ -22,7 +22,6 @@ export class InfobarCta implements CampaignTemplateComponent {
     @subtitle("Enter a fully qualified destination URL for the CTA (e.g., https://www.northerntrailoutfitters.com)")
     ctaUrl: string;
 
-    @buttonGroup(true)
     style: "Dark on Light" | "Light on Dark";
 
     run(context:CampaignComponentContext) {
