@@ -16,16 +16,13 @@ export class EmailCapturePopup implements CampaignTemplateComponent {
     @title("Opt-out Text")
     optOutText: string;
 
-    @subtitle("Text to display upon successful email submission")
-    confirmationText: string;
+    @subtitle("Header to display upon successful email submission")
+    confirmationHeader: string;
 
-    @subtitle("Text to display below Confirmation Text")
-    confirmationSubtext: string;
+    @subtitle("Subheader to display below Confirmation Header")
+    confirmationSubheader: string;
 
-    @buttonGroup(true)
-    font: "Helvetica" | "Roboto" | "Open Sans";
-    
-    textColor: Color;
+    style: "Dark on Light" | "Light on Dark";
 
     run(context: CampaignComponentContext) {
         return {};

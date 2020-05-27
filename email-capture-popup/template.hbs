@@ -1,6 +1,6 @@
 <div id="evg-email-capture-popup">
     <div class="evg-overlay"></div>
-    <div class="evg-popup" style="background-image:url('{{imageUrl}}'); color: {{textColor.hex}}; font-family: {{font}}">
+    <div class="evg-popup" style="background-image:url('{{imageUrl}}');">
         <div class="evg-content">
             <div class="evg-header">
                 {{{header}}}
@@ -11,7 +11,7 @@
             <form class="evg-form" action="" method="">
                 <input type="text" placeholder="Name">
                 <input type="text" placeholder="Email">
-                <button class="evg-cta" type="button" style="border: 2px solid {{textColor.hex}}; color: {{textColor.hex}}">
+                <button class="evg-cta" type="button">
                     {{ctaText}}
                 </button>
             </form>
@@ -20,11 +20,11 @@
             </div>
         </div>
         <div class="evg-confirm-content evg-hide">
-            <div class="evg-confirm-text">
-                {{confirmationText}}
+            <div class="evg-confirm-header">
+                {{confirmationHeader}}
             </div>
-            <div class="evg-confirm-subtext">
-                {{confirmationSubtext}}
+            <div class="evg-confirm-subheader">
+                {{confirmationSubheader}}
             </div>
         </div>
         <div class="evg-close">

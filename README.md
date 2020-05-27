@@ -47,13 +47,13 @@
 
 ### Email Capture Popup
 <div align="center">
-<img width="80%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/81368540-d8873f80-90a4-11ea-817b-b7cecd57a653.png">
+<img width="80%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/82980060-62884100-9f9d-11ea-82b5-28d10df29d9f.png">
 
-<img width="80%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/81368510-c73e3300-90a4-11ea-8539-0d99dcac603f.png">
+<img width="80%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/82980067-66b45e80-9f9d-11ea-80f6-20abe8984d61.png">
 </div>
 
 #### Configuration: 
-![Screen Shot 2020-05-07 at 8 37 34 PM](https://user-images.githubusercontent.com/32201252/81367622-a4128400-90a2-11ea-8dc1-06798c5c789a.png)
+![Screen Shot 2020-05-26 at 10 03 27 PM](https://user-images.githubusercontent.com/32201252/82979767-be05ff00-9f9c-11ea-9b52-27313b98fccf.png)
 
 1. Background Image URL
     - Ex: "https://www.northerntrailoutfitters.com/on/demandware.static/-/Library-Sites-NTO-SFRASharedLibrary/default/dw656a6e88/images/homepage/home-rain-gear-hero-450-600@2x.jpg"
@@ -65,12 +65,11 @@
     - Ex: "Sign Me Up"
 5. Opt-out Text
     - Ex: "No Thanks"
-6. Confirmation Text (Text to display upon successful email submission)
+6. Confirmation Header (Header to display upon successful email submission)
     - Ex: "Thank You"
-7. Confirmatin Subtext (Text to display below Confirmation Text)
+7. Confirmatin Subheader (Subheader to display below Confirmation Header)
     - Ex: "Check your email for the discount code!"
-8. Font (Helvetica, Roboto, Open Sans)
-9. Text Color
+8. Style (Dark on Light, Light on Dark)
 
 ### Product Recommendations
 ![Screen Shot 2020-05-08 at 6 32 30 PM](https://user-images.githubusercontent.com/32201252/81460417-0c706c80-915a-11ea-80b3-2d841ecb8ffd.png)

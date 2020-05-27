@@ -118,13 +118,13 @@
     text-align: center;
     width: 100%;
 }
-#evg-email-capture-popup .evg-confirm-text {
+#evg-email-capture-popup .evg-confirm-header {
     display: inline-block;
     font-size: 40px;
     margin-bottom: 10px;
     width: 400px;
 }
-#evg-email-capture-popup .evg-confirm-subtext {
+#evg-email-capture-popup .evg-confirm-subheader {
     display: inline-block;
     font-size: 20px;
     margin-bottom: 10px;
@@ -132,4 +132,18 @@
 }
 #evg-email-capture-popup .evg-hide {
     display: none;
+}
+#evg-email-capture-popup.evg-light {
+    color: #ffffff;
+}
+#evg-email-capture-popup.evg-dark {
+    color: #343a40;
+}
+#evg-email-capture-popup .evg-light {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+#evg-email-capture-popup .evg-dark {
+    border: 2px solid #343a40;
+    color: #343a40;
 }
