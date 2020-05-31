@@ -1,6 +1,6 @@
 import {ContextualBanditConfig, decide} from "corvus";
 
-export class CorvusTemplate implements CampaignTemplateComponent {
+export class ContextualBanditTemplate implements CampaignTemplateComponent {
 
     readonly doc = "No configuration required for this template.";
 

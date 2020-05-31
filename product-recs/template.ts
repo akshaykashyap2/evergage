@@ -1,6 +1,6 @@
 import { RecipeReference, RecipeReferenceLookup, recommend } from "recs";
 
-export class ProductRecommendations implements CampaignTemplateComponent {
+export class ProductRecommendationsTemplate implements CampaignTemplateComponent {
 
     @title("Recommendations Row Header")
     header: string;

@@ -1,4 +1,4 @@
-export class EmailCapturePopup implements CampaignTemplateComponent {
+export class EmailCapturePopupTemplate implements CampaignTemplateComponent {
     
     @title('Background Image URL')
     imageUrl: string;

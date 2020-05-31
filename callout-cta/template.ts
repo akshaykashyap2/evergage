@@ -3,7 +3,7 @@ export class ComplexType {
     label: string; 
 }
 
-export class CalloutTemplate implements CampaignTemplateComponent {
+export class CalloutCtaTemplate implements CampaignTemplateComponent {
 
     @options([
         {position: "top", label: "Top"},

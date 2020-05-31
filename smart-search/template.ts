@@ -1,6 +1,6 @@
 import { smartsearch, SmartSearchConfig } from "smartsearch";
 
-export class SmartSearch implements CampaignTemplateComponent {
+export class SmartSearchTemplate implements CampaignTemplateComponent {
 
     @title("Recipe ID")
     recipeId: string;

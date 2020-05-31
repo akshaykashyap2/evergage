@@ -3,7 +3,7 @@ export class ComplexType {
     label: string;
 }
 
-export class InfobarCta implements CampaignTemplateComponent {
+export class InfobarCtaTemplate implements CampaignTemplateComponent {
 
     @options([
         {position: "top", label: "Top"},
