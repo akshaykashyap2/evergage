@@ -83,26 +83,21 @@
 2. Recipe
 
 ### Callout
-
 <div align="center">
-<img width="80%" alt="" src="https://user-images.githubusercontent.com/32201252/81486703-7ac13780-920b-11ea-8bf6-673f5a69529f.png">
-
-<img width="80%" alt="Screen Shot 2020-03-28 at 6 27 00 PM" src="https://user-images.githubusercontent.com/32201252/81486704-7dbc2800-920b-11ea-9816-c54e51bb9e23.png">
+<img width="80%" alt="Screen Shot 2020-05-31 at 12 24 34 PM" src="https://user-images.githubusercontent.com/32201252/83360921-c9a94b00-a339-11ea-918f-bc7151b5d0e6.png">
+<img width="80%" alt="Screen Shot 2020-05-31 at 12 24 53 PM" src="https://user-images.githubusercontent.com/32201252/83360930-cf069580-a339-11ea-9f25-6acc3d674df7.png">
 </div>
 
 #### Configuration: 
-![Screen Shot 2020-05-09 at 2 58 53 PM](https://user-images.githubusercontent.com/32201252/81485876-9c1f2500-9205-11ea-9ce8-2bd8d3e4e762.png)
+<img width="314" alt="Screen Shot 2020-05-31 at 12 26 16 PM" src="https://user-images.githubusercontent.com/32201252/83360949-ef365480-a339-11ea-8617-228f5c50b945.png">
 
 1. Callout Direction (Top, Bottom, Left, Right)
-1. Body Text
+1. Style (Dark on Light, Light on Dark)
+1. Main Text
     - Ex: "Ask us questions here! Or check out our"
-1. Body Text Color
-1. Link Text
+1. CTA Text
     - Ex: "Help Community"
-1. Link Text Color
-1. Link URL
-1. Font (Helvetica, Roboto, Open Sans)
-1. Background Color
+1. CTA Destination URL
 
 ### Smart Search
 ![Screen Shot 2020-05-09 at 3 14 11 PM](https://user-images.githubusercontent.com/32201252/81486151-bfe36a80-9207-11ea-8bd1-f6cbced0b079.png)

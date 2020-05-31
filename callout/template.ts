@@ -3,7 +3,7 @@ export class ComplexType {
     label: string; 
 }
 
-export class PromoCodeInfobar implements CampaignTemplateComponent {
+export class CalloutTemplate implements CampaignTemplateComponent {
 
     @options([
         {position: "top", label: "Top"},
@@ -12,27 +12,18 @@ export class PromoCodeInfobar implements CampaignTemplateComponent {
         {position: "right", label: "Right"}
     ])
     calloutDirection: ComplexType;
-
-    backgroundColor: Color;
+    
+    style: "Dark on Light" | "Light on Dark";
 
     @richText(true)
     mainText: string;
-
-    mainTextColor: Color;
 
     @richText(true)
     @title('CTA Text')
     ctaText: string;
 
-    @richText(true)
-    @title('CTA Text Color')
-    ctaTextColor: Color;
-
-    @title('CTA URL')
+    @title('CTA Destination URL')
     ctaUrl: string;
-
-    @buttonGroup(true)
-    font: "Helvetica" | "Roboto" | "Open Sans";
 
     run(context:CampaignComponentContext) {
         return {};
