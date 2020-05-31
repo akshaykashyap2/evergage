@@ -11,6 +11,8 @@ export class InfobarCtaTemplate implements CampaignTemplateComponent {
     ])
     infobarPosition: ComplexType;
 
+    style: "Dark on Light" | "Light on Dark";
+
     @richText(true)
     mainText: string;
 
@@ -21,8 +23,6 @@ export class InfobarCtaTemplate implements CampaignTemplateComponent {
     @title('CTA Destination URL')
     @subtitle("Enter a fully qualified destination URL for the CTA (e.g., https://www.northerntrailoutfitters.com)")
     ctaUrl: string;
-
-    style: "Dark on Light" | "Light on Dark";
 
     run(context:CampaignComponentContext) {
         return {};

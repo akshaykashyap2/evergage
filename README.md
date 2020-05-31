@@ -7,18 +7,16 @@
 
 ![Screen Shot 2020-05-26 at 11 03 11 PM](https://user-images.githubusercontent.com/32201252/82983510-150fd200-9fa5-11ea-9c5a-16d2f2862a25.png)
 
-
-
 1. Background Image URL
     - "https://www.northerntrailoutfitters.com/dw/image/v2/BDPX_PRD/on/demandware.static/-/Library-Sites-NTO-SFRASharedLibrary/default/dw8dec29a5/images/stories/stories-hero-05-1800-600.jpg"
-2. Header
+1. Style (Dark on Light, Light on Dark)
+1. Header
     - Ex: "Rewards Club"
-3. Subheader
+1. Subheader
     - Ex: "Start earning 5% back every time you shop. It's free to join!"
-4. CTA Text
+1. CTA Text
     - Ex: "JOIN NOW"
-5. CTA Destination URL
-6. Style (Dark on Light, Light on Dark)
+1. CTA Destination URL
 
 ### Infobar with Call-to-Action
 <div align="center">
@@ -33,18 +31,18 @@
 
 1. Infobar Position
     -  Dropdown: Top, Bottom
+1. Style (Dark on Light, Light on Dark)
 1. Main Text
     - Top Infobar 
       - Ex: "Get free 2-day shipping with any $50 purchase. Ends 4/25!"
     - Bottom Infobar:
       - Ex: "Refer a friend and get $25 off your next purchase!"
-2. CTA Text
+1. CTA Text
     - Top Infobar 
       - Ex: "SHOP NOW"
     - Bottom Infobar 
       - Ex: "Learn More"
-3. CTA Destination URL
-4. Style (Dark on Light, Light on Dark)
+1. CTA Destination URL
 
 ### Email Capture Popup
 <div align="center">
@@ -58,19 +56,19 @@
 
 1. Background Image URL
     - Ex: "https://www.northerntrailoutfitters.com/on/demandware.static/-/Library-Sites-NTO-SFRASharedLibrary/default/dw656a6e88/images/homepage/home-rain-gear-hero-450-600@2x.jpg"
-2. Header
+1. Style (Dark on Light, Light on Dark)
+1. Header
     - Ex: "Get On The List"
-3. Subheader
+1. Subheader
     - Ex: "Sign up for exclusive offers, events, and inspirations. Plus, get 10% off your next order!"  
-4. CTA Text
+1. CTA Text
     - Ex: "Sign Me Up"
-5. Opt-out Text
+1. Opt-out Text
     - Ex: "No Thanks"
-6. Confirmation Header (Header to display upon successful email submission)
+1. Confirmation Header (Header to display upon successful email submission)
     - Ex: "Thank You"
-7. Confirmatin Subheader (Subheader to display below Confirmation Header)
+1. Confirmatin Subheader (Subheader to display below Confirmation Header)
     - Ex: "Check your email for the discount code!"
-8. Style (Dark on Light, Light on Dark)
 
 ### Product Recommendations
 ![Screen Shot 2020-05-08 at 6 32 30 PM](https://user-images.githubusercontent.com/32201252/81460417-0c706c80-915a-11ea-80b3-2d841ecb8ffd.png)

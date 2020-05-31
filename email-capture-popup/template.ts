@@ -3,6 +3,8 @@ export class EmailCapturePopupTemplate implements CampaignTemplateComponent {
     @title('Background Image URL')
     imageUrl: string;
 
+    style: "Dark on Light" | "Light on Dark";
+
     @richText(true)
     header: string;
 
@@ -21,8 +23,6 @@ export class EmailCapturePopupTemplate implements CampaignTemplateComponent {
 
     @subtitle("Subheader to display below Confirmation Header")
     confirmationSubheader: string;
-
-    style: "Dark on Light" | "Light on Dark";
 
     run(context: CampaignComponentContext) {
         return {};

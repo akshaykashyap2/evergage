@@ -6,6 +6,8 @@ export class HeroBannerCtaTemplate implements CampaignTemplateComponent {
     @hidden(true)
     contentZone: string = "Homepage Hero";
 
+    style: "Dark on Light" | "Light on Dark";
+
     header: string;
 
     subheader: string;
@@ -16,8 +18,6 @@ export class HeroBannerCtaTemplate implements CampaignTemplateComponent {
     @title('CTA Destination URL')
     @subtitle("Enter a fully qualified destination URL for the CTA (e.g., https://www.northerntrailoutfitters.com)")
     ctaUrl: string;
-
-    style: "Dark on Light" | "Light on Dark";
 
     run(context:CampaignComponentContext) {
         return {};
