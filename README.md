@@ -4,8 +4,7 @@
 ![Screen Shot 2020-05-26 at 4 43 21 PM](https://user-images.githubusercontent.com/32201252/82960688-09ee7f00-9f70-11ea-88b2-e476e995edf4.png)
 
 #### Configuration:
-
-![Screen Shot 2020-05-26 at 11 03 11 PM](https://user-images.githubusercontent.com/32201252/82983510-150fd200-9fa5-11ea-9c5a-16d2f2862a25.png)
+<img width="357" alt="Screen Shot 2020-05-31 at 3 06 22 PM" src="https://user-images.githubusercontent.com/32201252/83363710-4cd59b80-a350-11ea-8f19-c827ff897dbd.png">
 
 1. Background Image URL
     - "https://www.northerntrailoutfitters.com/dw/image/v2/BDPX_PRD/on/demandware.static/-/Library-Sites-NTO-SFRASharedLibrary/default/dw8dec29a5/images/stories/stories-hero-05-1800-600.jpg"
@@ -26,8 +25,7 @@
 </div>
 
 #### Configuration: 
-
-![Screen Shot 2020-05-26 at 10 52 17 PM](https://user-images.githubusercontent.com/32201252/82982696-8f3f5700-9fa3-11ea-9d79-99624ab2bb7e.png)
+<img width="356" alt="Screen Shot 2020-05-31 at 3 05 16 PM" src="https://user-images.githubusercontent.com/32201252/83363682-24e63800-a350-11ea-9ac9-2a7d18e60811.png">
 
 1. Infobar Position
     -  Dropdown: Top, Bottom
@@ -52,7 +50,7 @@
 </div>
 
 #### Configuration: 
-![Screen Shot 2020-05-26 at 10 03 27 PM](https://user-images.githubusercontent.com/32201252/82979767-be05ff00-9f9c-11ea-9b52-27313b98fccf.png)
+<img width="359" alt="Screen Shot 2020-05-31 at 3 07 14 PM" src="https://user-images.githubusercontent.com/32201252/83363725-6b3b9700-a350-11ea-8107-d0ca7d7d44e7.png">
 
 1. Background Image URL
     - Ex: "https://www.northerntrailoutfitters.com/on/demandware.static/-/Library-Sites-NTO-SFRASharedLibrary/default/dw656a6e88/images/homepage/home-rain-gear-hero-450-600@2x.jpg"
@@ -87,7 +85,7 @@
 </div>
 
 #### Configuration: 
-<img width="314" alt="Screen Shot 2020-05-31 at 12 26 16 PM" src="https://user-images.githubusercontent.com/32201252/83360949-ef365480-a339-11ea-8617-228f5c50b945.png">
+<img width="356" alt="Screen Shot 2020-05-31 at 3 03 37 PM" src="https://user-images.githubusercontent.com/32201252/83363649-ea7c9b00-a34f-11ea-9deb-619ba87e5bdb.png">
 
 1. Callout Direction (Top, Bottom, Left, Right)
 1. Style (Dark on Light, Light on Dark)

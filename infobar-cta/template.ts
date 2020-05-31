@@ -16,7 +16,6 @@ export class InfobarCtaTemplate implements CampaignTemplateComponent {
     @richText(true)
     mainText: string;
 
-    @richText(true)
     @title('CTA Text')
     ctaText: string;
 

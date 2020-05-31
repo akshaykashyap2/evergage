@@ -8,8 +8,10 @@ export class HeroBannerCtaTemplate implements CampaignTemplateComponent {
 
     style: "Dark on Light" | "Light on Dark";
 
+    @richText(true)
     header: string;
 
+    @richText(true)
     subheader: string;
 
     @title('CTA Text')

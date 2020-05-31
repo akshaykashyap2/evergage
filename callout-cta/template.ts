@@ -18,7 +18,6 @@ export class CalloutCtaTemplate implements CampaignTemplateComponent {
     @richText(true)
     mainText: string;
 
-    @richText(true)
     @title('CTA Text')
     ctaText: string;
 
