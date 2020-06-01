@@ -1,5 +1,6 @@
 #evg-callout {
     box-sizing: border-box;
+    cursor: auto;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -13,12 +14,11 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 8px;
+    padding: 10px 20px 10px 10px;
     position: absolute;
     text-align: center;
     width: 170px;
     z-index: 10000000;  
-    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px;    */
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);   
 }
 #evg-callout .evg-container {
@@ -60,6 +60,19 @@
     left: -20px;
     margin-top: -10px;
     top: 50%;
+}
+#evg-callout .evg-close {
+    border-radius: 15px;
+    color: #ced4da;
+    cursor: pointer;
+    height: 22px;
+    line-height: 22px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-align: center;
+    user-select: none;
+    width: 22px;
 }
 #evg-callout.evg-light {
     color: #ffffff;

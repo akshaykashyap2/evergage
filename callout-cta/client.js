@@ -16,7 +16,17 @@
       if (parent.css("position") === "static") {
         parent.css("position", "relative");
       }
-      
+    
+    //-- Style config setup --// 
+      if (context.style === "Dark on Light") {
+        Evergage.cashDom("#evg-callout").addClass("evg-dark");
+        arrowFillStyle = "#f8f8f8";
+      } else {
+        Evergage.cashDom("#evg-callout").addClass("evg-light");
+        arrowFillStyle = "#343a40";
+      }
+
+    //-- Callout positioning --//
       if (position === "top") {
         callout.css({"top":"0%", "left":"50%", "transform":"translate(-50%, calc(-100% - 20px))"});
         canvas.removeClass();
@@ -39,14 +49,6 @@
         coords = [ [20, 5], [10, 10], [20, 15] ];
       }
 
-      if (context.style === "Dark on Light") {
-        Evergage.cashDom("#evg-callout").addClass("evg-dark");
-        arrowFillStyle = "#f8f8f8";
-      } else {
-        Evergage.cashDom("#evg-callout").addClass("evg-light");
-        arrowFillStyle = "#343a40";
-      }
-
     //-- Callout triangle arrow --// 
       // set properties
       ctx.fillStyle = arrowFillStyle;
@@ -66,7 +68,11 @@
       
       // apply fill
       ctx.fill();
-      
+
+    //-- Dismisses callout --//
+      Evergage.cashDom("#evg-callout .evg-close").on("click", function() {
+            Evergage.cashDom("#evg-callout").remove();
+      });
     }
   }
 

@@ -80,8 +80,8 @@
 
 ### Callout
 <div align="center">
-<img width="80%" alt="Screen Shot 2020-05-31 at 12 24 34 PM" src="https://user-images.githubusercontent.com/32201252/83360921-c9a94b00-a339-11ea-918f-bc7151b5d0e6.png">
-<img width="80%" alt="Screen Shot 2020-05-31 at 12 24 53 PM" src="https://user-images.githubusercontent.com/32201252/83360930-cf069580-a339-11ea-9f25-6acc3d674df7.png">
+<img width="80%" alt="Screen Shot 2020-06-01 at 4 24 45 PM" src="https://user-images.githubusercontent.com/32201252/83463978-6c3df880-a424-11ea-9379-be6a59e395e3.png">
+<img width="80%" alt="Screen Shot 2020-06-01 at 4 25 18 PM" src="https://user-images.githubusercontent.com/32201252/83464018-7e1f9b80-a424-11ea-81d1-739bf88079f8.png">
 </div>
 
 #### Configuration: 
