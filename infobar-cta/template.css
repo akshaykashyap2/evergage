@@ -23,7 +23,12 @@
 #evg-infobar-cta .evg-cta {
     font-size: 14px;
     text-decoration: none;
+}
+#evg-infobar-cta .evg-cta.evg-light {
     color: #6dccee;
+}
+#evg-infobar-cta .evg-cta.evg-dark {
+    color: #17a2b8;
 }
 #evg-infobar-cta .evg-container {
     display: inline;

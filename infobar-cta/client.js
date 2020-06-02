@@ -19,8 +19,10 @@
       // 'Style' config setup
       if (context.style === "Dark on Light") {
         Evergage.cashDom("#evg-infobar-cta").addClass("evg-dark");
+        Evergage.cashDom("#evg-infobar-cta .evg-cta").addClass("evg-dark");
       } else {
         Evergage.cashDom("#evg-infobar-cta").addClass("evg-light");
+        Evergage.cashDom("#evg-infobar-cta .evg-cta").addClass("evg-light");
       }
 
       // Dismisses callout

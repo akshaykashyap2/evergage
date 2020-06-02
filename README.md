@@ -19,9 +19,8 @@
 
 ### Infobar with Call-to-Action
 <div align="center">
-<img width="80%" alt="Screen Shot 2020-05-23 at 12 27 08 AM" src="https://user-images.githubusercontent.com/32201252/82724609-25b20680-9c8c-11ea-970f-2b411e26b233.png">
-
-<img width="80%" alt="Screen Shot 2020-05-23 at 12 29 06 AM" src="https://user-images.githubusercontent.com/32201252/82724650-6c9ffc00-9c8c-11ea-9aff-78dded841f87.png">
+<img width="80%" alt="Screen Shot 2020-05-23 at 12 27 08 AM" src="https://user-images.githubusercontent.com/32201252/83471408-79191700-a439-11ea-9898-b7d9e3ffd520.png">
+<img width="80%" alt="Screen Shot 2020-05-23 at 12 29 06 AM" src="https://user-images.githubusercontent.com/32201252/83471530-bd0c1c00-a439-11ea-9871-eaf289400072.png">
 </div>
 
 #### Configuration: 
@@ -80,8 +79,8 @@
 
 ### Callout
 <div align="center">
-<img width="80%" alt="Screen Shot 2020-06-01 at 4 24 45 PM" src="https://user-images.githubusercontent.com/32201252/83463978-6c3df880-a424-11ea-9379-be6a59e395e3.png">
-<img width="80%" alt="Screen Shot 2020-06-01 at 4 25 18 PM" src="https://user-images.githubusercontent.com/32201252/83464018-7e1f9b80-a424-11ea-81d1-739bf88079f8.png">
+<img width="80%" alt="Screen Shot 2020-06-01 at 4 24 45 PM" src="https://user-images.githubusercontent.com/32201252/83472084-43752d80-a43b-11ea-95ab-93b712bdd641.png">
+<img width="80%" alt="Screen Shot 2020-06-01 at 4 25 18 PM" src="https://user-images.githubusercontent.com/32201252/83472090-46701e00-a43b-11ea-8b9f-3fec4e7dbe10.png">
 </div>
 
 #### Configuration: 

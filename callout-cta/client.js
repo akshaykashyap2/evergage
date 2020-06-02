@@ -17,12 +17,14 @@
         parent.css("position", "relative");
       }
     
-    //-- 'Style' config setup --// 
+    //-- Style config setup --// 
       if (context.style === "Dark on Light") {
         Evergage.cashDom("#evg-callout").addClass("evg-dark");
+        Evergage.cashDom("#evg-callout .evg-cta").addClass("evg-dark");
         arrowFillStyle = "#f8f8f8";
       } else {
         Evergage.cashDom("#evg-callout").addClass("evg-light");
+        Evergage.cashDom("#evg-callout .evg-cta").addClass("evg-light");
         arrowFillStyle = "#343a40";
       }
 
@@ -71,7 +73,7 @@
 
     //-- Dismisses callout --//
       Evergage.cashDom("#evg-callout .evg-close").on("click", function() {
-            Evergage.cashDom("#evg-callout").remove();
+        Evergage.cashDom("#evg-callout").remove();
       });
     }
   }
