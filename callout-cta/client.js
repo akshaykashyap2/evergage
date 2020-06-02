@@ -17,7 +17,7 @@
         parent.css("position", "relative");
       }
     
-    //-- Style config setup --// 
+    //-- 'Style' config setup --// 
       if (context.style === "Dark on Light") {
         Evergage.cashDom("#evg-callout").addClass("evg-dark");
         arrowFillStyle = "#f8f8f8";

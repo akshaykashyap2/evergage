@@ -4,6 +4,8 @@
     if (context && context.infobarPosition) {
       var html = template(context);
       Evergage.cashDom("body").append(html);
+      
+      // Infobar positioning
       if (context.infobarPosition.position === "top") {
         Evergage.cashDom("body").css("margin-bottom", "0px");
         Evergage.cashDom("body").css("margin-top", "42px");
@@ -14,11 +16,17 @@
         Evergage.cashDom("#evg-infobar-cta").css("bottom", "0px");
       }
 
+      // 'Style' config setup
       if (context.style === "Dark on Light") {
         Evergage.cashDom("#evg-infobar-cta").addClass("evg-dark");
       } else {
         Evergage.cashDom("#evg-infobar-cta").addClass("evg-light");
       }
+
+      // Dismisses callout
+      Evergage.cashDom("#evg-infobar-cta .evg-close").on("click", function() {
+        Evergage.Render.reset("Global - Infobar with Call-to-Action", context);
+      });
     }
   }
 

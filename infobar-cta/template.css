@@ -32,6 +32,19 @@
     font-size: 14px; 
     display: inline;   
 }
+#evg-infobar-cta .evg-close {
+    border-radius: 15px;
+    color: #ced4da;
+    cursor: pointer;
+    height: 22px;
+    line-height: 22px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-align: center;
+    user-select: none;
+    width: 22px;
+}
 #evg-infobar-cta.evg-light {
     color: #ffffff;
     background-color: #343a40;
