@@ -1,5 +1,5 @@
 (function() {
-    function apply(context, template, render) {
+    function apply(context, template) {
 
         /* jshint shadow:true */
 

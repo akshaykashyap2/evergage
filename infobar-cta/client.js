@@ -1,6 +1,6 @@
 (function() {
 
-  function apply(context, template, render) {
+  function apply(context, template) {
     if (context && context.infobarPosition) {
       var html = template(context);
       Evergage.cashDom("body").append(html);

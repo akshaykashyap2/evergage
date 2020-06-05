@@ -1,6 +1,6 @@
 (function() {
 
-  function apply(context, template, render) {
+  function apply(context, template) {
     if (context && context.calloutDirection) {
       
       var html = template(context);

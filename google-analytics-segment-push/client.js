@@ -1,6 +1,6 @@
 (function() {
 
-  function apply(context, template, render) {
+  function apply(context, template) {
     let userSegments = context.userSegments;
     let userDimensions = context.userDimensions;
 
