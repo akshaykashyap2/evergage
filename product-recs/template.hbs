@@ -1,9 +1,9 @@
-<div id="evg-product-recs">
+<div id="evg-product-recs" data-evg-campaign="{{campaign}}:{{experience}}" data-evg-campaign-group="test">
     <div class="evg-recs-header">
         {{header}}
     </div>
-    {{#each items}}
-    <div class="evg-item">
+    {{#each products}}
+    <div class="evg-item" data-evg-product-id="{{id}}">
         <a href="{{attributes.url.value}}">
             <img class="evg-image" src="{{attributes.imageUrl.value}}" alt="{{attributes.name.value}}"/>
         </a>

@@ -1,4 +1,4 @@
-<div id="evg-email-capture-popup">
+<div id="evg-email-capture-popup" data-evg-campaign="{{campaign}}:{{experience}}" data-evg-campaign-group="test">
     <div class="evg-overlay"></div>
     <div class="evg-popup" style="background-image:url('{{imageUrl}}');">
         <div class="evg-content">
@@ -27,6 +27,6 @@
                 {{{confirmationSubheader}}}
             </div>
         </div>
-        <div class="evg-close">&times;</div>
+        <div class="evg-close" evergage-dismissonclick="evergage-dismissonclick">&times;</div>
     </div>
 </div>

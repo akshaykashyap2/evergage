@@ -10,14 +10,14 @@ export class ProductRecommendationsTemplate implements CampaignTemplateComponent
     recipeId: RecipeReference;
 
     run(context:CampaignComponentContext) {
-        const items = recommend(context, {
+        const products = recommend(context, {
             itemType: "Product",
             maxResults: 4,
             recipeId: this.recipeId,
             validate: () => true
         });
         return {
-            items
+            products
         };
     }
 }
